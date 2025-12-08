@@ -1,5 +1,7 @@
 # Camp's blog
 
+All the source files of my blog that's hosted at [yap.jackle.ca](https://yap.jackle.ca) and will be replacing the [Carrd](https://carrd.co)-hosted one.
+
 ## Helpful commands
 
 ### Create the blog from scratch
@@ -28,4 +30,5 @@ Source: [Blowfish docs: Getting started > Installing updates > Update using Hugo
 
 - [Blowfish docs](https://blowfish.page)
   - [Icons](https://blowfish.page/samples/icons/)
-  - 
+  - [Markdown](https://blowfish.page/samples/markdown/)
+    - [Raw](https://raw.githubusercontent.com/nunocoracao/blowfish/refs/heads/main/exampleSite/content/samples/markdown/index.md)
