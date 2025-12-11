@@ -5,13 +5,20 @@ none = "none"
 name = "Blog"
 pageRef = "posts"
 identifier = "VezlEO3Lmf"
-weight = 9_999
+weight = 1
 
 [[main]]
-name = "Topics"
-pageRef = "topics"
-identifier = "x4E3Lv1X0M"
-weight = 9_999
+pre = "music"
+name = "Music"
+url = "https://music.jackle.ca/@listen/links"
+identifier = "YEdyTsJ0Vl"
+weight = 2
 
 [[footer]]
 none = "none"
+
+[[footer]]
+name = "Tags"
+pageRef = "tags"
+identifier = "OFZdzCWI7b"
+weight = 9_999

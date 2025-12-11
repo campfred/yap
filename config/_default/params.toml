@@ -22,9 +22,10 @@ verification = { }
 rssnext = { }
 advertisement = { }
 defaultBackgroundImage = "."
+defaultFeaturedImage = "Post banner.webp"
 
 [header]
-layout = "basic"
+layout = "fixed-fill-blur"
 
 [footer]
 showMenu = true
@@ -64,11 +65,12 @@ showPagination = true
 invertPagination = false
 showReadingTime = true
 showTableOfContents = false
-showTaxonomies = false
+showTaxonomies = true
 showCategoryOnly = false
 showAuthorsBadges = false
 showWordCount = true
 showZenMode = false
+heroStyle = "background"
 
 [list]
 showHero = false
@@ -85,6 +87,7 @@ groupByYear = true
 cardView = false
 cardViewScreenWidth = false
 constrainItemsWidth = false
+heroStyle = "background"
 
 [sitemap]
 excludedKinds = [ "taxonomy", "term" ]
@@ -97,6 +100,7 @@ showViews = false
 showLikes = false
 showTableOfContents = false
 cardView = false
+heroStyle = ""
 
 [term]
 showHero = false

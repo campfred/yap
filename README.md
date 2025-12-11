@@ -24,6 +24,12 @@ Source: [Blowfish docs: Getting started > Installation > Blowfish Tools (recomme
 git submodule update --remote --merge
 ```
 
+### Serve the site locally with draft and future posts
+
+```shell
+hugo serve --buildDrafts --buildFuture
+```
+
 Source: [Blowfish docs: Getting started > Installing updates > Update using Hugo](https://blowfish.page/docs/installation/#update-using-hugo)
 
 ## References
@@ -32,3 +38,4 @@ Source: [Blowfish docs: Getting started > Installing updates > Update using Hugo
   - [Icons](https://blowfish.page/samples/icons/)
   - [Markdown](https://blowfish.page/samples/markdown/)
     - [Raw](https://raw.githubusercontent.com/nunocoracao/blowfish/refs/heads/main/exampleSite/content/samples/markdown/index.md)
+  - [Shortcodes](https://blowfish.page/docs/shortcodes/)
