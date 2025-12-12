@@ -14,22 +14,22 @@ secondaryLogo = "frame_00_delay-0.03s.gif"
 description = "Camp's blog for hosting and sharing various notes and thoughts about various stuff. It may serve as a document repository for public interest stuff too sometimes. I dunno."
 
 [[params.author.links]]
-bluesky = "https://bsky.app/profile/camp.jackle.ca"
-
-[[params.author.links]]
 github = "https://github.com/campfred"
-
-[[params.author.links]]
-image = "https://furaffinity.net/user/campfred"
-
-[[params.author.links]]
-lastfm = "https://www.last.fm/user/campfred"
 
 [[params.author.links]]
 music = "https://music.jackle.ca"
 
 [[params.author.links]]
 telegram = "https://campfred.t.me"
+
+[[params.author.links]]
+bluesky = "https://bsky.app/profile/camp.jackle.ca"
+
+[[params.author.links]]
+furaffinity = "https://furaffinity.net/user/campfred"
+
+[[params.author.links]]
+lastfm = "https://www.last.fm/user/campfred"
 
 ["params.author"]
 name = "Camp"

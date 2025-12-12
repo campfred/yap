@@ -1,4 +1,4 @@
-# Camp's blog
+# Camp's yaps repository
 
 All the source files of my blog that's hosted at [yap.jackle.ca](https://yap.jackle.ca) and will be replacing the [Carrd](https://carrd.co)-hosted one.
 
@@ -31,6 +31,15 @@ hugo serve --buildDrafts --buildFuture
 ```
 
 Source: [Blowfish docs: Getting started > Installing updates > Update using Hugo](https://blowfish.page/docs/installation/#update-using-hugo)
+
+## Helpful tips for adding content
+
+### Adding custom icons
+
+1. Place an SVG file into the [assets/icons] folder
+2. Open the file for editing
+3. Remove all fill colour properties
+4. Add a `fill="currentColor"` attribute in the `svg` tag
 
 ## References
 
