@@ -1,10 +1,11 @@
 ---
 title: "Welcome!"
-date: 2025-12-07
-publishDate: 2025-12-13
-draft: true
+date: 2025-12-13
+# publishDate: 2025-12-13
+draft: false
 description: "First post of the blog welcoming visitors and giving some ideas of what to expect here."
-tags: ["blog", "tech"]
+categories: ["blog"]
+tags: ["tech"]
 ---
 
 Hi there! Welcome to my new blog! ✨
@@ -33,7 +34,9 @@ And from my side, the changes are even more impactful.
 > - No paid subscription specific to that site 💸
 > - Sanity preserved ❤️‍🩹
 
+{{< lead >}}
 In the end, we're all winning and I'm motivated again to maintain this website. 🏆
+{{< /lead >}}
 
 If you wanna do a Hugo website too, I recommend checking out [Christian Lampa's tutorial on Hugo][christianlampa-youtube-hugo] which has been the template for this website. 📺
 
