@@ -22,3 +22,9 @@ name = "Tags"
 pageRef = "tags"
 identifier = "OFZdzCWI7b"
 weight = 9_999
+
+[[footer]]
+name = "Categories"
+pageRef = "categories"
+identifier = "BDFpvtAniX"
+weight = 9_999
