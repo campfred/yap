@@ -61,6 +61,10 @@ main() {
     git fetch --unshallow
   fi
 
+  # Update Git submodules
+  echo "Updating Git submodules..."
+  git submodule update --remote --merge
+
   # Build the site
   echo "Building the site..."
   hugo --gc --minify
