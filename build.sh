@@ -70,7 +70,7 @@ main() {
   then
     echo "❌ Not inside a git work tree; cannot update submodules"
     pwd
-    ls -la
+    ls -lah
     exit 1
   fi
   echo "🎨 Configuring themes..."
@@ -78,7 +78,7 @@ main() {
   if [ ! -d "themes/blowfish" ]
   then
     echo "❌ \"themes/blowfish\" is missing after git submodule update"
-    ls -R
+    ls -lah
     exit 1
   fi
 
