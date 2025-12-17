@@ -1,6 +1,6 @@
 # Source: https://gohugo.io/host-and-deploy/host-on-cloudflare/
 
-name = "hosting-cloudflare-worker"
+name = "yap"
 compatibility_date = "2025-07-31"
 
 [build]
