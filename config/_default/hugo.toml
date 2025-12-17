@@ -56,3 +56,7 @@ toLower = false
   name = "fragmentrefs"
   type = "fragments"
   weight = 10
+
+[[imports]]
+disable = false
+path = "github.com/nunocoracao/blowfish/v2"

@@ -65,9 +65,13 @@ main() {
     git fetch --unshallow
   fi
 
-  # Configure theme
-  echo "🎨 Configuring themes..."
-  npx blowfish-tools install
+  # # Configure theme
+  # echo "🎨 Configuring themes..."
+  # npx blowfish-tools install
+
+  # Configure Hugo modules
+  echo "📦 Downloading Hugo modules..."
+  hugo mod get ./...
 
   # Build the site
   echo "🏗️ Building Hugo site..."
