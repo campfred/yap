@@ -65,26 +65,9 @@ main() {
     git fetch --unshallow
   fi
 
-  # Update Git submodules
-  echo "🔍 Checking submodule status..."
-  git submodule status
-  ls -la themes/ || echo "No themes dir yet"
-  git ls-tree HEAD themes/blowfish || echo "No blowfish in this branch's tree"
-  if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1
-  then
-    echo "❌ Not inside a git work tree; cannot update submodules"
-    pwd
-    ls -lah
-    exit 1
-  fi
+  # Configure theme
   echo "🎨 Configuring themes..."
-  git submodule update --init --recursive
-  if [ ! -d "themes/blowfish" ]
-  then
-    echo "❌ \"themes/blowfish\" is missing after git submodule update"
-    ls -lah
-    exit 1
-  fi
+  npx blowfish-tools install
 
   # Build the site
   echo "🏗️ Building Hugo site..."
