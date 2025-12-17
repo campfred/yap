@@ -12,6 +12,8 @@
 #------------------------------------------------------------------------------
 
 main() {
+  SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+  cd "${SCRIPT_DIR}"
 
   DART_SASS_VERSION=1.96.0
   GO_VERSION=1.25.5
@@ -64,9 +66,21 @@ main() {
   fi
 
   # Update Git submodules
+  if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1
+  then
+    echo "❌ Not inside a git work tree; cannot update submodules"
+    pwd
+    ls -la
+    exit 1
+  fi
   echo "🎨 Configuring themes..."
   git submodule update --init --recursive
-  git config core.quotepath false
+  if [ ! -d "themes/blowfish" ]
+  then
+    echo "❌ \"themes/blowfish\" is missing after git submodule update"
+    ls -R
+    exit 1
+  fi
 
   # Build the site
   echo "🏗️ Building Hugo site..."
