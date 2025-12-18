@@ -64,6 +64,9 @@ main() {
   if [ "$(git rev-parse --is-shallow-repository)" = "true" ]; then
     git fetch --unshallow
   fi
+  
+  # Initialize submodules
+  git submodule update --init --recursive
 
   # Configure themes
   echo "🎨 Configuring Hugo themes..."
