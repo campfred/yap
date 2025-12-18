@@ -2,14 +2,15 @@
 none = "none"
 
 [[main]]
+pre = "mug-hot"
 name = "Blog"
 pageRef = "posts"
 identifier = "VezlEO3Lmf"
 weight = 1
 
 [[main]]
-pre = "music"
-name = "Music"
+pre = "castopod"
+name = "Mixtapes"
 url = "https://music.jackle.ca/@listen/links"
 identifier = "YEdyTsJ0Vl"
 weight = 2

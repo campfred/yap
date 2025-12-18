@@ -21,7 +21,7 @@ buymeacoffee = { }
 verification = { }
 rssnext = { }
 advertisement = { }
-defaultBackgroundImage = "."
+defaultBackgroundImage = "Background.webp"
 defaultFeaturedImage = "Post banner.webp"
 
 [header]
@@ -35,15 +35,16 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "profile"
-showRecent = false
-showRecentItems = 5
-showMoreLink = false
+layout = "hero"
+showRecent = true
+showRecentItems = "5"
+showMoreLink = true
 showMoreLinkDest = "/posts/"
-cardView = false
+cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = false
 disableHeroImageFilter = false
+homepageImage = "Background.webp"
 
 [article]
 showDate = true
@@ -73,7 +74,7 @@ showZenMode = false
 heroStyle = "background"
 
 [list]
-showHero = false
+showHero = true
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
