@@ -67,7 +67,7 @@ main() {
 
   # Configure themes
   echo "🎨 Configuring Hugo themes..."
-  npm install blowfish-tools
+  npm install
   blowfish-tools install
   git reset --hard HEAD
 
