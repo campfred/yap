@@ -65,6 +65,12 @@ main() {
     git fetch --unshallow
   fi
 
+  # Configure themes
+  echo "🎨 Configuring Hugo themes..."
+  npm install blowfish-tools
+  blowfish-tools install
+  git reset --hard HEAD
+
   # Build the site
   echo "🏗️ Building Hugo site..."
   hugo --minify --gc
