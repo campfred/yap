@@ -17,7 +17,7 @@ description = "Camp's blog for hosting and sharing various notes and thoughts ab
 github = "https://github.com/campfred"
 
 [[params.author.links]]
-music = "https://music.jackle.ca"
+castopod = "https://music.jackle.ca"
 
 [[params.author.links]]
 telegram = "https://campfred.t.me"
