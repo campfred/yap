@@ -2,6 +2,7 @@
 public/
 resources/
 exampleSite/resources/
+themes/
 
 # Binaries for programs and plugins
 *.exe
