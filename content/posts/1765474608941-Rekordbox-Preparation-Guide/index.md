@@ -78,9 +78,11 @@ When you'll load up Disk Manager on your computer, make sure that your USB disk 
 - <mark>📜 MBR partitioning scheme</mark><br>
   It seems like even some recent DJ hardware are still incompatible with GPT-based drives. So, stick with MBR for now.
 - <mark>💽 FAT32 partition format</mark> **if you're playing on old hardware** _(up to CDJ-2000NXS2 players)_<br>
-  While this usually won't cause issues on recent hardware, it's preferred to avoid FAT32 if you're going to record extended DJ sets.
+  While this usually won't cause issues on recent hardware, it's preferred to avoid FAT32 if you're going to record extended DJ sets on that USB key.
 - <mark>💽 exFAT partition format</mark> is preferred otherwise but optional if playing on recent hardware _(CDJ-3000 and XDJ-XZ and up)_<br>
-  This partition format is [better suited for flash memory][pcmag-storage-formats] and can handle bigger files which is handy for recording your sick DJ sets.
+  This partition format is [better suited for flash memory][^1] and can handle bigger files which is handy for recording your sick DJ sets.
+
+[^1]: "ExFAT was made to be very portable and optimized for flash drives. It’s lightweight like FAT32, but without the same file size restrictions." — [John Bogna @ PCMag Labo][pcmag-storage-formats]
 
 ## Rekordbox app and settings
 
@@ -95,4 +97,4 @@ When you'll load up Disk Manager on your computer, make sure that your USB disk 
 [kingston-datatravelermax]: https://www.kingston.com/en/usb-flash-drives/datatraveler-max "Kingston DataTraveler Max USB 3.2 Gen 2 flash drive on Kingston's official website"
 [kingston-datatravelermax-canadacomputers]: https://www.canadacomputers.com/en/flash-drives/244849/kingston-datatraveler-max-256gb-usb-a-3-2-gen-2-flash-drive-dtmaxa-256gb.html "Kingston Kingston DataTraveler Max in 256 GB USB-A variant on Canada Computers"
 [kingston-datatravelermax-bestbuy]: https://www.bestbuy.ca/en-ca/product/17039346 "Kingston Kingston DataTraveler Max in 256 GB USB-A variant on Best Buy Canada"
-[pcmag-storage-formats]: https://www.pcmag.com/how-to/fat32-vs-exfat-vs-ntfs-which-format-is-best-for-your-storage-drive#exfat-lightweight-compatible-high-capacity "PCMag Labo:  FAT32 vs. ExFAT vs. NTFS: Which Format Is Best for Your Storage Drive?"
+[pcmag-storage-formats]: https://www.pcmag.com/how-to/fat32-vs-exfat-vs-ntfs-which-format-is-best-for-your-storage-drive#exfat-lightweight-compatible-high-capacity:~:text=ExFAT%20was%20made%20to%20be%20very%20portable%20and%20optimized%20for%20flash%20drives%2E%20It%E2%80%99s%20lightweight%20like%20FAT32%2C%20but%20without%20the%20same%20file%20size%20restrictions%2E "PCMag Labo:  FAT32 vs. ExFAT vs. NTFS: Which Format Is Best for Your Storage Drive?"

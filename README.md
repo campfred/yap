@@ -45,6 +45,8 @@ Source: [Blowfish docs: Getting started > Installing updates > Update using Hugo
 3. Remove all fill colour properties
 4. Add a `fill="currentColor"` attribute in the `svg` tag
 
+Use [SVG Crop](https://svgcrop.com) to remove blank space around SVG icons.
+
 ## References
 
 - [Blowfish docs](https://blowfish.page)

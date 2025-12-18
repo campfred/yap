@@ -15,10 +15,19 @@ description = "Camp's blog for hosting and sharing various notes and thoughts ab
 
 [[params.author.links]]
 github = "https://github.com/campfred"
+[[params.author.links]]
 castopod = "https://music.jackle.ca"
+[[params.author.links]]
 telegram = "https://campfred.t.me"
+[[params.author.links]]
+discord = "https://discordapp.com/users/239771146478813185"
+[[params.author.links]]
 bluesky = "https://bsky.app/profile/camp.jackle.ca"
+[[params.author.links]]
+vrc = "https://vrchat.com/home/user/usr_205175e8-775c-421e-a8f1-ca9b0d000ead"
+[[params.author.links]]
 furaffinity = "https://furaffinity.net/user/campfred"
+[[params.author.links]]
 lastfm = "https://www.last.fm/user/campfred"
 
 ["params.author"]
