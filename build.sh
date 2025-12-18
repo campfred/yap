@@ -68,11 +68,12 @@ main() {
   # Configure theme
   echo "🎨 Configuring themes..."
   npm install blowfish-tools
+  blowfish-tools update
 
   # Build the site
   echo "🏗️ Building Hugo site..."
-  npx blowfish-tools generate
-  hugo --gc --minify
+  blowfish-tools generate
+  hugo --minify --gc
 
   echo "✨ Build completed successfully!"
 }
