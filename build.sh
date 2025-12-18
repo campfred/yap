@@ -65,10 +65,6 @@ main() {
     git fetch --unshallow
   fi
 
-  # Configure theme
-  echo "🎨 Configuring themes..."
-  git submodule update --remote --merge
-
   # Build the site
   echo "🏗️ Building Hugo site..."
   hugo --minify --gc
