@@ -13,7 +13,7 @@ brew install hugo
 brew install fnm
 fnm install v24
 fnm use v24
-npx blowfish-tools
+npx blowfish-tools new $website_name
 ```
 
 Source: [Blowfish docs: Getting started > Installation > Blowfish Tools (recommended)](https://blowfish.page/docs/installation/#blowfish-tools-recommended)
@@ -21,7 +21,11 @@ Source: [Blowfish docs: Getting started > Installation > Blowfish Tools (recomme
 ### Update the site
 
 ```shell
-git submodule update --remote --merge
+brew update hugo
+brew update fnm
+fnm install v24
+fnm use v24
+npx blowfish-tools update
 ```
 
 ### Serve the site locally with draft and future posts
