@@ -42,6 +42,9 @@ If you wanna do a Hugo website too, I recommend checking out [Christian Lampa's 
 
 Of course, feel free to check its source code[^1] and use it as inspiration for your own! ✨
 
+<!-- {{< codeberg repo="campfred/yap" >}} -->
+{{< github repo="campfred/yap" showThumbnail=false >}}
+
 In the meantime, go check out my socials or even my [Castopod instance][castopod]. 🎶
 
 [^1]: The source code of that website is available on [my `blog` GitHub repository][blog-github].
