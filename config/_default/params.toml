@@ -1,4 +1,4 @@
-colorScheme = "noir"
+colorScheme = "one-light"
 defaultAppearance = "light"
 autoSwitchAppearance = true
 enableA11y = false
@@ -70,7 +70,7 @@ showTaxonomies = true
 showCategoryOnly = false
 showAuthorsBadges = false
 showWordCount = true
-showZenMode = false
+showZenMode = true
 heroStyle = "background"
 
 [list]
