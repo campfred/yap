@@ -1,11 +1,14 @@
 ---
-title: "Welcome!"
+title: Welcome!
+description: First post of the blog welcoming visitors and giving some ideas of what to expect here.
+summary: Welcome to my new blog! This one's a beeg improvement over my previously Carrd-hosted site and it is also open source. ✨
 date: 2025-12-13
-# publishDate: 2025-12-13
+lastmod: 2025-12-30
 draft: false
-description: "First post of the blog welcoming visitors and giving some ideas of what to expect here."
-categories: ["blog"]
-tags: ["tech"]
+categories:
+  - blog
+tags:
+  - tech
 ---
 
 Hi there! Welcome to my new blog! ✨

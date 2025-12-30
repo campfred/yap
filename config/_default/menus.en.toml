@@ -1,22 +1,23 @@
 [[main]]
-none = "none"
-
-[[main]]
 pre = "mug-hot"
 name = "Blog"
-pageRef = "posts"
+pageRef = "blog"
 identifier = "VezlEO3Lmf"
 weight = 1
+
+[[main]]
+pre = "graduation-cap"
+name = "Guides"
+pageRef = "guides"
+identifier = "zDj8TJLRqG"
+weight = 2
 
 [[main]]
 pre = "castopod"
 name = "Mixtapes"
 url = "https://music.jackle.ca/@listen/links"
 identifier = "YEdyTsJ0Vl"
-weight = 2
-
-[[footer]]
-none = "none"
+weight = 4
 
 [[footer]]
 name = "Tags"

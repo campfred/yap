@@ -1,11 +1,18 @@
 ---
-title: "Rekordbox Preparation Guide"
+title: Rekordbox Preparation Guide
+description: Detailed guide on how to prepare for using standalone Rekordbox hardware (CDJs, XDJs a nd whatnot) on stage.
+summary: I lay out all of the tea on how to get a nice a USB drive for DJ-ing and how to make CDJs/XDJs use your own settings for performing. A true anxiety reliever. ❤️‍🩹
+draft: false
 date: 2025-01-02
-# publishDate: 2025-01-02
-description: "Detailed guide on how to prepare for using standalone Rekordbox hardware (CDJs, XDJs a nd whatnot) on stage."
-categories: ["guides"]
-tags: ["djing", "rekordbox", "tech", "music"]
-# series: "Preperation guides"
+lastmod: 2025-01-02
+categories:
+  - guides
+tags:
+  - djing
+  - rekordbox
+  - tech
+  - music
+# series: Preperation guides
 # series_order: 1
 showTableOfContents: true
 ---
@@ -210,7 +217,7 @@ And it's really easy to access too!
 2. Select the storage drive in the list _(click on its name, not any of the libraries that are under it)_
 3. Set the <mark>Device name</mark>, <mark>OneLibrary background colour</mark> and <mark>Device Library background colour</mark>
 4. (Optional) Set a custom picture to display on jog wheels<br>
-   It can be toggled ON / OFF right from the <mark>Source</mark> menu on players afterward. So, I suggest putting one anyway in case that becomes useful or fun. 😉
+   It can be toggled ON / OFF right from the <mark>SOURCE</mark> menu on players afterward. So, I suggest putting one anyway in case that becomes useful or fun. 😉
 
 ![Screenshot of Rekordbox' device (USB key) view showing how I accessed it and that I named my USB "Camp" and I set its colour for both library types as "yellow"](attachments/rekordbox-usb-id.png "The elements may appear slightly differntly in Performance Mode but the features are still all available in that mode too.")
 
@@ -233,43 +240,88 @@ Of course, there's also people that just put a joke on there. I used to have "ow
 
 ### USB DJ settings
 
-This part seems to be lesser known by DJays I was supporting even though, often, they did successfully ID their USB storage. 😅
+This part is also overlooked often by DJays even though they successfully ID-ed their USBs. It's so important tho! 😅
 
-Indeed, there's a bunch of settings presented right under those name and colour!
+Indeed, Rekordbox allows to configure a bunch of performance settings to save _right on the USB key_.
+Meaning that once hopping on stage, after the USB drive is plugged in and shown in the <mark>SOURCE</mark> menu, it is possible to load the DJ settings that were configured at home on Rekordbox. Neat!
 
-- Waveform colour, position and divisions
-- Songs' key display format
-- Custom picture to display on jog wheels<br>
-  I very much use this to put some funny memes there. Kind of a easter egg for people hanging out or taking pictures in the booth. 👀
+#### What can bet changed and where
 
-However, please also take a look at the other tabs.
-They contain a lot of settings you're likely gonna want to setup also.
+A lot actually! I'll quickly run down through all of them.
 
-- <mark>General</mark><br>
-  You probably know that one by heart now but this has all the essentials to at least get started.
-- <mark>Category</mark><br>
-  That's where you set the "views" you want available on the players. You really need to set this beforehand otherwise you likely won't be able to get them back once on stage. 😅
-- <mark>Sort</mark><br>
+{{<tabs>}}
+  {{<tab label="General">}}
+  This one has all the essentials to at least get started including:
+
+   - Waveform colour, position and divisions
+   - Songs' key display format
+  
+  ![Screenshot of Rekordbox' device (USB key) view showing my "General" panel.](attachments/rekordbox-usb-general.webp "In my case, I have selected <mark>3Band</mark> as my preferred waveform type and a few other options.")
+  {{</tab>}}
+
+  {{<tab label="Category">}}
+  That's the "views" to make available on the players when at the library's home.<br>
+  The configuration settings are burried under a few menu depths, if available at all, so it's important to set this beforehand. 😅
+
+  ![Screenshot of Rekordbox' device (USB key) view showing my "Category" panel.](attachments/rekordbox-usb-category.webp "Here, I have added the <mark>MATCHING</mark>, <mark>KEY</mark>, <mark>BPM</mark>, <mark>RATING</mark> and <mark>DATE ADDED</mark> views and ordered them in a way that I am happy with.")
+  {{</tab>}}
+  
+  {{<tab label="Sort">}}
   Less crucial of a setting to set but, again, getting new ones shown _on device_ is a bit hard. Set this in advance.
-- <mark>Column</mark><br>
-  This allows you to select the information you want displayed when browsing tracks. I personnally set it to rating as I use that as a way to gauge the energy of tracks.
-- <mark>Color</mark><br>
-  Just make sure that your Colour tags are set to the same names you have in Rekordbox' application preferences. Otherwise you may not remember what they mean on stage. 😅
-- <mark>My Settings</mark><br>
-  As you can see, nothing can be changed there. That's because it is reflecting your Rekordbox applications' DJ Settings preferences. And of course they don't give you a button to access them quickly. 🫠
 
-{{< carousel images="{attachments/rekordbox-usb-general.webp,attachments/rekordbox-usb-category.webp,attachments/rekordbox-usb-sort.webp,attachments/rekordbox-usb-column.webp,attachments/rekordbox-usb-color.webp,attachments/rekordbox-usb-mysettings.webp}" >}}
+  ![Screenshot of Rekordbox' device (USB key) view showing my "Sort" panel.](attachments/rekordbox-usb-sort.webp "I have set my sorting methods to include <mark>KEY</mark>, <mark>BPM</mark>, <mark>RATING</mark>, <mark>GENRE</mark> and <mark>DATE ADDED</mark> as they're the most useful for me.")
+  {{</tab>}}
+  
+  {{<tab label="Column">}}
+  This chooses what information is displayed next to track names when browsing the library.
 
-<!-- ![Screenshot of Rekordbox' device (USB key) view showing my "General" settings.](attachments/rekordbox-usb-general.webp "You can see I have selected \"3Band\" as my preferred waveform type and a few other options.")
-{style="width:50%;"}
-![Screenshot of Rekordbox' device (USB key) view showing my "General" settings.](attachments/rekordbox-usb-general.webp "You can see I have selected \"3Band\" as my preferred waveform type and a few other options.")
-{style="width:50%;"} -->
+  ![Screenshot of Rekordbox' device (USB key) view showing my "Column" panel.](attachments/rekordbox-usb-column.webp "I personnally set it to <mark>RATING</mark> since I use it as a way to tell the energy of tracks.")
+  {{</tab>}}
+  
+  {{<tab label="Color">}}
+  Just make sure that the Colour tags are set to the same names as in Rekordbox' application preferences. That's an easy thing to forget in the mix otherwise. 😅
 
-There's also more tabs to click through at the top with even more settings.
-These are all of your DJ settings you will be able to recall on the players and mixers when you'll hop on stage for your set.
-Please take the time to go through them and configure them to your liking. 😇
+  ![Screenshot of Rekordbox' device (USB key) view showing my "Color" panel.](attachments/rekordbox-usb-color.webp "In my case, I use the <mark>Color</mark> tag as a way to identify in which occasion I'd see myself playing a track.")
+  {{</tab>}}
+  
+  {{<tab label="My Settings">}}
+  This is probably the most crucial part if DJing with different settings than the default ones.
+  It shows what DJ settings are currently saved in the USB key and that's these settings that will be possible to load [later on](#load-my-settings).
 
-A lot of DJays I supported during shows were understandably anxious when they found out that the players were not behaving to their liking because they were running off the previous DJ's settings. 🫠
+  And indeed, nothing can be changed there most of the time because it is only reflecting the Rekordbox app's DJ Settings preferences.
+  And of course they don't give you a button to access them quickly. 🫠
+
+  So, open Rekordbox' preferences and navigate to the <mark>DJ Settings</mark> page to change them. 🙏
+
+  ![Screenshot of Rekordbox' device (USB key) view showing my "My Settings" panel.](attachments/rekordbox-usb-mysettings.webp "I didn't get the whole list in the screenshot but there's a lot of settings there.")
+  {{</tab>}}
+{{</tabs>}}
+
+So, yeah. There's a bunch of stuff and, of course, it won't give new features to older devices (like RGB waveforms that are absent on CDJ-2000NXS(1) and older).
+But it still sets everything up in one go and makes the whole kit ready to play.
+
+{{<lead>}}So, please take the time to go through My Settings. It'll be ever useful. 😇{{</lead>}}
+
+To learn more about each individual setting that's available on different CDJ models, check out [Chris M's <mark>CDJ My Settings Guide</mark> on HotCue DJ][chrism-hotcue-cdjmysettings]. He also has [an accompanying video on YouTube][chrism-hotcue-cdjmysettings-youtube] [<sup>(archive)</sup>][chrism-hotcue-cdjmysettings-youtube-archive] for it.
+
+#### Load "My Settings"
+
+Assuming a configured USB drive with the proper settings, it's pretty easy to get going now and there are three quick ways to get them loaded. ✨
+
+1. By pressing the <kbd>MY SETTINGS LOAD</kbd> button on the right in the <mark>SOURCE</mark> menu
+2. By confirming <kbd>YES</kbd> to the <mark>Sync with My Settings?</mark> popup that shows after entering a library from a USB key
+3. By pressing the <kbd>LOAD</kbd> button in the <mark>MY SETTINGS</mark> section (in the library's box on the right) of the <mark>SHORTCUT</mark> menu
+
+## Go out and play
+
+That is all! 🎉
+
+There was indeed a lot of stuff in there but hopefully that was made digestable and, especially, easy to navigate to the info chunks that was interesting for you.
+Of course, if you have any question about this, poke me on [any of my socials](/). If you found something that could be corrected, don't hesitate to open [an Issue](https://github.com/campfred/yap/issues) or even [a Pull request](https://github.com/campfred/yap/pulls) and I'll make sure to check it out. ✨
+
+{{<lead>}}Now, go make people dance. 🕺{{</lead>}}
+
+<!-- Footnotes -->
 
 [^0]: "[…] operating systems don’t always finish their behind-the-scenes work the moment your progress bar disappears." — [CORSAIR, the PC components manufacturer][corsair-drive-ejection]
 [^1]: "ExFAT was made to be very portable and optimized for flash drives. It’s lightweight like FAT32, but without the same file size restrictions." — [John Bogna @ PCMag Labo][pcmag-storage-formats]
@@ -278,6 +330,8 @@ A lot of DJays I supported during shows were understandably anxious when they fo
 [^4]: The support documents about partition formats support on [the CDJ-3000X player][alphatheta-support-cdj3000x-partitionformats], [the XDJ-AZ all-in-one console][alphatheta-support-xdjaz-partitionformats] and [the OneLibrary device library (formerly Device Library Plus)][alphatheta-support-onelibrary-partitionformats], released over a month ago, mentions HFS+ today.
 [^5]: "When using an HFS+ format USB storage device, music files that use Hangul characters in the file name, artist name, or album name can't be loaded. In this case, use FAT32 formatted USB storage devices." — [AlphaTheta @ XDJ-RX3 support document][pioneerdj-support-xdjrx3-partitionformats]
 [^6]: "The old Device Library database is just that – old, slow, and limiting for modern hardware. So to support new gear, a new database was needed – and that’s what Device Library Plus is." — [Phil Morse @ Digital DJ Tips news blog](https://www.digitaldjtips.com/rekordbox-device-library-plus/#:~:text=The%20old%20Device%20Library%20database%20is%20just%20that%20%E2%80%93%20old%2C%20slow%2C%20and%20limiting%20for%20modern%20hardware%2E%20So%20to%20support%20new%20gear%2C%20a%20new%20database%20was%20needed%20%E2%80%93%20and%20that%E2%80%99s%20what%20Device%20Library%20Plus%20is)
+
+<!-- Links -->
 
 [castopod-listen]: https://music.jackle.ca/@listen/episodes "Listen with Camp on my Castopod instance"
 [castopod-promo]: https://music.jackle.ca/@promo/episodes "Camp's demos on my Castopod instance"
@@ -299,3 +353,6 @@ A lot of DJays I supported during shows were understandably anxious when they fo
 [alphatheta-exportformats-archive]: https://web.archive.org/web/20251227090955/https://rekordbox.com/en/support/usb-export/ "(Archive) AlphaTheta: USB Export support table"
 [lexicondj-blog-devicelibraryplus]: https://www.lexicondj.com/blog/everything-you-need-to-know-about-device-library-plus-and-more "Lexicon DJ: Everything you need to know about Device Library Plus"
 [lexicondj-blog-devicelibraryplus-archive]: https://web.archive.org/web/20251119012209/https://www.lexicondj.com/blog/everything-you-need-to-know-about-device-library-plus-and-more "(Archive) Lexicon DJ: Everything you need to know about Device Library Plus"
+[chrism-hotcue-cdjmysettings]: https://hotcuedj.com/cdj-my-settings-guide/ "Chris M @ HotCue DJ Newsletter: CDJ My Settings Guide signup page"
+[chrism-hotcue-cdjmysettings-youtube]: https://youtu.be/pznqHFsNo2g "Chris M's video on YouTube for configuring My Settings for CDJs"
+[chrism-hotcue-cdjmysettings-youtube-archive]: https://web.archive.org/web/20250610074710/https://youtu.be/pznqHFsNo2g "(Archive) Chris M's video on YouTube for configuring My Settings for CDJs"

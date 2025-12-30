@@ -1,11 +1,14 @@
 ---
 title: "Intersting network CIDR ranges"
-date: 2025-12-13
-# publishDate: 2025-12-13
-draft: true
 description: "Quick notes about some interesting CIDR ranges to know if you're homelabbing."
-categories: ["notes"]
-tags: ["tech", "homelab"]
+draft: true
+date: 2025-12-13
+# lastmod: 2025-12-13
+categories:
+  - notes
+tags:
+  - tech
+  - homelab
 ---
 
 - 10.0.0.0/8 # Private
