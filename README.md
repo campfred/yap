@@ -49,8 +49,10 @@ Use [SVG Crop](https://svgcrop.com) to remove blank space around SVG icons.
 
 ## References
 
-- [Blowfish docs](https://blowfish.page)
-  - [Icons](https://blowfish.page/samples/icons/)
-  - [Markdown](https://blowfish.page/samples/markdown/)
+- [Blowfish docs](https://blowfish.page) [<sup>(archive)</sup>](https://web.archive.org/web/20251216160344/https://blowfish.page/)
+  - [Icons](https://blowfish.page/samples/icons/) [<sup>(archive)</sup>](https://web.archive.org/web/20251017093620/https://blowfish.page/samples/icons/)
+  - [Markdown](https://blowfish.page/samples/markdown/) [<sup>(archive)</sup>](https://web.archive.org/web/20251112170608/https://blowfish.page/samples/markdown/)
     - [Raw](https://raw.githubusercontent.com/nunocoracao/blowfish/refs/heads/main/exampleSite/content/samples/markdown/index.md)
-  - [Shortcodes](https://blowfish.page/docs/shortcodes/)
+  - [Shortcodes](https://blowfish.page/docs/shortcodes/) [<sup>(archive)</sup>](https://web.archive.org/web/20251221034138/https://blowfish.page/docs/shortcodes/)
+- [CSS named colours organized by palette](https://austingil.com/every-css-named-color-organized-by-palette/) [<sup>(archive)</sup>](https://web.archive.org/web/20251230152105/https://austingil.com/every-css-named-color-organized-by-palette/)
+- [Pictogrammers Material Design Icons](https://pictogrammers.com/library/mdi/)
