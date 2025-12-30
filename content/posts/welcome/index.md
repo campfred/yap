@@ -19,20 +19,21 @@ While this is a personal site, I hope you'll find something interesting in there
 
 That new setup has quite a few advantages from a visitor's point of view.
 
-> - Blog area with articles that are open source[^1] 📰
-> - Dark mode 🌚
-> - Much faster loading speed / lighter on resources ⚡
-> - Not affected by AWS downtimes 🔥 (lol)
+- Blog area with [articles that are open source][blog-github] 📰
+- Dark mode 🌚
+- Much faster loading speed / lighter on resources ⚡
+- Not affected by AWS downtimes 🔥 (lol)
 
 And from my side, the changes are even more impactful.
 
-> - No more scatered Notion pages that are impossible to find for others 📚
-> - Text (Markdown) files as source for articles alike [Obsidian Publish][obsidian-publish] 📜
-> - No more slow and clunky editor 🛠️
-> - URLs that follow standards[^1] 🏷️
-> - Open source software stack[^2] 🔍
-> - No paid subscription specific to that site 💸
-> - Sanity preserved ❤️‍🩹
+- No more scatered Notion pages that are impossible to find for others 📚
+- Text (Markdown) files as source for articles (alike [Obsidian Publish][obsidian-publish]) 📜
+- No more slow and clunky editor 🛠️
+- URLs that follow standards[^1] 🏷️
+- Open source software stack[^2] 🔍
+- Freedom of hosting platform 🚀
+- No more subscription fees 💸
+- Sanity preserved ❤️‍🩹
 
 {{< lead >}}
 In the end, we're all winning and I'm motivated again to maintain this website. 🏆
@@ -45,7 +46,8 @@ Of course, feel free to check its source code and use it as inspiration for your
 {{< github repo="campfred/yap" showThumbnail=false >}}
 {{< codeberg repo="campfred/yap" >}}
 
-In the meantime, go check out my socials or even my [Castopod instance][castopod]. 🎶
+In the meantime, I wish you a nice day and hope to see you again soon!
+Also, feel free to go check out [my socials](/) as I'll be posting my new articles there too and maybe even my [podcast "Listen with Camp"][castopod]. 🎶
 
 [^1]: Carrd doesn't actually use `/paths/` in web addresses for navigation, it has a [sections][carrd-docs-page] [(archive)][carrd-docs-page-archive] concept that uses `#ids` which is not really a standard way of doing even if it works.
 [^2]: [Hugo][hugo-homepage] [(archive)][hugo-homepage-archive] is an [open source][hugo-github] static site generator written in Go.
