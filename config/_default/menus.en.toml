@@ -1,21 +1,37 @@
 [[main]]
-none = "none"
-
-[[main]]
+pre = "mug-hot"
 name = "Blog"
-pageRef = "posts"
+# pageRef = "posts/blog"
+pageRef = "blog"
 identifier = "VezlEO3Lmf"
 weight = 1
 
 [[main]]
-pre = "music"
-name = "Music"
-url = "https://music.jackle.ca/@listen/links"
-identifier = "YEdyTsJ0Vl"
+pre = "graduation-cap"
+name = "Guides"
+# pageRef = "posts/guides"
+pageRef = "guides"
+identifier = "zDj8TJLRqG"
 weight = 2
 
-[[footer]]
-none = "none"
+[[main]]
+pre = "castopod"
+name = "Mixtapes"
+url = "https://music.jackle.ca/@listen/links"
+identifier = "YEdyTsJ0Vl"
+weight = 4
+
+# [[footer]]
+# name = "Sections"
+# pageRef = "posts"
+# identifier = "NXLERJNY9i"
+# weight = 9_999
+
+# [[footer]]
+# name = "Categories"
+# pageRef = "categories"
+# identifier = "BDFpvtAniX"
+# weight = 9_999
 
 [[footer]]
 name = "Tags"
@@ -23,8 +39,9 @@ pageRef = "tags"
 identifier = "OFZdzCWI7b"
 weight = 9_999
 
-[[footer]]
-name = "Categories"
-pageRef = "categories"
-identifier = "BDFpvtAniX"
+[[main]]
+pre = "github"
+# name = "Source"
+url = "https://github.com/campfred/yap"
+identifier = "D6W3MEzy8Z"
 weight = 9_999

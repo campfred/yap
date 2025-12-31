@@ -1,0 +1,8 @@
+# Development configuration. Disable this by running: hugo server --environment production
+# https://gohugo.io/quick-reference/glossary/#environment
+
+# Exclude folders containing large numbers of images
+buildDrafts = true
+buildFuture = true
+renderToMemory = true
+disableFastRender = true
