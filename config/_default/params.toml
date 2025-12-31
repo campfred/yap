@@ -17,7 +17,7 @@ enableStyledScrollbar = true # disable to use native scrollbar style (defaults t
 
 replyByEmail = false
 
-mainSections = ["posts"] # ["section1", "section2"]
+mainSections = ["blog", "guides"] # ["section1", "section2"]
 # robots = ""
 
 disableImageOptimization = false
@@ -58,7 +58,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   homepageImage = "Background.webp"
   showRecent = true
   showRecentItems = 3
-  showMoreLink = true
+  # showMoreLink = true
   showMoreLinkDest = "/posts/"
   cardView = true
   cardViewScreenWidth = false

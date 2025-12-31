@@ -1,14 +1,16 @@
 [[main]]
 pre = "mug-hot"
 name = "Blog"
-pageRef = "posts/blog"
+# pageRef = "posts/blog"
+pageRef = "blog"
 identifier = "VezlEO3Lmf"
 weight = 1
 
 [[main]]
 pre = "graduation-cap"
 name = "Guides"
-pageRef = "posts/guides"
+# pageRef = "posts/guides"
+pageRef = "guides"
 identifier = "zDj8TJLRqG"
 weight = 2
 
