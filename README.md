@@ -34,7 +34,7 @@ Source: [Blowfish docs: Getting started > Installation > Blowfish Tools (recomme
 ### Update the site
 
 ```shell
-brew update hugo
+brew upgrade hugo
 brew update fnm
 fnm install v24
 fnm use v24
