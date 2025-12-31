@@ -10,7 +10,13 @@ on:
       - synchronize
   schedule:
     # https://crontab.guru/every-hour
-    - cron: "0 * * * *"
+    - cron: "0 12 * * *"
+
+permissions:
+  checks: read
+  contents: read
+  deployments: read
+  pull-requests: write
 
 jobs:
   merge_schedule:
