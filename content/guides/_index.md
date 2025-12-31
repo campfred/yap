@@ -6,12 +6,12 @@ showDate: false
 showWordCount: false
 showReadingtime: false
 showDateUpdated: false
-groupByYear: false
 cascade:
+  groupByYear: false
   showEdit: false
   # showSummary: false
   # hideFeatureImage: false
-  invertPagination: true
+  # invertPagination: true
 ---
 
 All of my guides I share with others for various purposes.
