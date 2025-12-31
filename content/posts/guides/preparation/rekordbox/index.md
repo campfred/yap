@@ -1,6 +1,6 @@
 ---
-title: Rekordbox Preparation Guide
-description: Detailed guide on how to prepare for using standalone Rekordbox hardware (CDJs, XDJs a nd whatnot) on stage.
+title: Rekordbox USB Drive Preparation
+description: Detailed guide on how to prepare for using standalone Rekordbox hardware (CDJs, XDJs a nd whatnot) on stage. It covers from selecting an appropriate USB storage device to configuring settings on the Rekordbox application.
 summary: I lay out all of the tea on how to get a nice a USB drive for DJ-ing and how to make CDJs/XDJs use your own settings for performing. A true anxiety reliever. ❤️‍🩹
 draft: false
 date: 2025-01-02
