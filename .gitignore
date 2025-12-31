@@ -22,6 +22,7 @@ exampleSite/resources/
 #others
 node_modules
 .hugo_build.lock
+*.af~lock~:com.dropbox.ignored
 
 # OS generated files
 .DS_Store
