@@ -10,7 +10,7 @@ on:
       - synchronize
   schedule:
     # https://crontab.guru/every-hour
-    - cron: "0 12 * * *"
+    - cron: "0 * * * *"
 
 permissions:
   checks: read
