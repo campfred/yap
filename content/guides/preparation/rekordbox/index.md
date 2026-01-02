@@ -4,7 +4,7 @@ description: Detailed guide on how to prepare for using standalone Rekordbox har
 summary: I lay out all of the tea on how to get a nice a USB drive for DJ-ing and how to make CDJs/XDJs use your own settings for performing. A true anxiety reliever. ❤️‍🩹
 draft: false
 date: 2025-12-31
-lastmod: 2025-12-31
+lastmod: 2026-01-02
 categories:
   - guides
 tags:
@@ -83,12 +83,12 @@ Here's the few specs to keep in check that will take care of the issues.
 > Players and mixers are likely not providing enough power for running external / portable SSDs with them.[^2]
 > Please, do not consider using these without providing additional / external power to the storage device.
 
-#### What do _I_ use?
-
-To date, I'm using a [Kingston's DataTraveler Max][kingston-datatravelermax] and it is my recommendation at time of writing this.
-
-It has good specs for relieving my own and my friends' anxiety during Rekordbox exports with [its ~200 MB/s random 4K speeds][techpowerup-kingston-datatravelermax].
-It's also available at the most present computer stores in my area ([Canada Computers][kingston-datatravelermax-canadacomputers], [Best Buy][kingston-datatravelermax-bestbuy] and [Addision Électronique][kingston-datatravelermax-addison]), which has been handy a few times already. ❤️‍🩹
+> [!example] What do _I_ use
+>
+> To date, I'm using a [Kingston's DataTraveler Max][kingston-datatravelermax] and it is my recommendation at time of writing this.
+>
+> It has good specs for relieving my own and my friends' anxiety during Rekordbox exports with [its ~200 MB/s random 4K speeds][techpowerup-kingston-datatravelermax].
+> It's also available at the most present computer stores in my area ([Canada Computers][kingston-datatravelermax-canadacomputers], [Best Buy][kingston-datatravelermax-bestbuy] and [Addision Électronique][kingston-datatravelermax-addison]), which has been handy a few times already. ❤️‍🩹
 
 ### Partitioning schemes
 
@@ -108,7 +108,7 @@ This one's pretty simple as there's only two. Here's a small breakdown of them.
 
 {{<lead>}}Please use the <mark>MBR</mark> partitioning scheme for external storage.{{</lead>}}
 
-> [!NOTE] Switching between partitioning schemes
+> [!TIP] Switching between partitioning schemes
 > A disk utility on a computer is required to switch between partitioning schemes.
 > All operating systems include one and searching for "disk" will bring it up.
 > However, depending on the specific utility, it may be needed to delete all partitions first before attempting to switch.
@@ -146,25 +146,24 @@ This one has a little bit more possibilities and has led to some confusion from 
 
 {{<lead>}}Prefer using <mark>FAT32</mark> as the partition format unless more tech savvy or really need to.{{</lead>}}
 
-> [!NOTE]
-> A quick way to see if the USB drive is formatted properly for Rekordbox use is to look for a 🚫 icon next to it.
-> This will indicate that file system is not supported by Rekordbox.
+> [!tip] Little hint that Rekordbox will show with unsupported formats
+> If a storage device is connected but uses an unsupported filesystem, Rekordbox shows a 🚫 icon next to it to indicate that it is unusable for DJing and prevents exporting to it.
 
-#### How _I_ go about this?
-
-Since I'm also an AV / stage tech, I actually have two different USB keys for different purposes.
-
-1. <mark>💽 DJ drive</mark>
-   {{<keywordList>}}{{<keyword>}}MBR{{</keyword>}}{{<keyword>}}exFAT{{</keyword>}}{{</keywordList>}}
-   I carry this one at events I am performing or backing up as part of my DJ kit.<br>
-   It has my actual performing DJ libraries and serves as my recording target (when possible).<br>
-   It could be FAT32 but exFAT has been useful for recording extended sessions and its enhanced corruption resiliency have worked well for me so far.<br>
-   Also, since I only perform on "recent" hardware (OPUS-QUAD, XDJ-AZ, CDJ-3000/X…), exFAT support never was an issue for playing anyway.
-2. <mark>🛠️ AV tech drive</mark>
-   {{<keywordList>}}{{<keyword>}}MBR{{</keyword>}}{{<keyword>}}FAT32{{</keyword>}}{{</keywordList>}}
-   I carry this one as part of my AV tech kit I bring to events I am supporting even if only taking care of the DJ backline.<br>
-   It contains the latest firmware of all of the players I usually support in events (hence the FAT32 format) and there's also a basic but still good selection of my library for testing purposes and some light DJing.<br>
-   It also contains other stuff like showfile templates and whatnot for lights, sound and stuff but these are out of scope for this guide.
+> [!example] How _I_ go about this
+>
+> Since I'm also an AV / stage tech, I actually have two different USB keys for different purposes.
+>
+> 1. <mark>💽 DJ drive</mark>
+>    {{<keywordList>}}{{<keyword>}}MBR{{</keyword>}}{{<keyword>}}exFAT{{</keyword>}}{{</keywordList>}}
+>    I carry this one at events I am performing or backing up as part of my DJ kit.<br>
+>    It has my actual performing DJ libraries and serves as my recording target (when possible).<br>
+>    It could be FAT32 but exFAT has been useful for recording extended sessions and its enhanced corruption resiliency have worked well for me so far.<br>
+>    Also, since I only perform on "recent" hardware (OPUS-QUAD, XDJ-AZ, CDJ-3000/X…), exFAT support never was an issue for playing anyway.
+> 2. <mark>🛠️ AV tech drive</mark>
+>    {{<keywordList>}}{{<keyword>}}MBR{{</keyword>}}{{<keyword>}}FAT32{{</keyword>}}{{</keywordList>}}
+>    I carry this one as part of my AV tech kit I bring to events I am supporting even if only taking care of the DJ backline.<br>
+>    It contains the latest firmware of all of the players I usually support in events (hence the FAT32 format) and there's also a basic but still good selection of my library for testing purposes and some light DJing.<br>
+>    It also contains other stuff like showfile templates and whatnot for lights, sound and stuff but these are out of scope for this guide.
 
 ## Rekordbox app and settings
 
@@ -220,17 +219,17 @@ Simple as that! 🎉
 In my case, I have my DJ drive named "Camp" and set to "Yellow" for my library colours.
 But, for the sake of easily differenciating [my USB keys I explained earlier](#how-i-go-about-this), my AV tech drive [I mentionned earlier](#how-i-go-about-this) is named "Camp (backline)" and with orange library colours.
 
-#### Get creative with them
-
-I've seen some DJays put their email address or social media username as their device name (like [bsky@camp.jackle.ca](https://bsky.app/profile/camp.jackle.ca)) which is very handy in case it gets lost / forgotten! 🪪<br>
-Actually, I think I'm gonna do that after writing this article. 👀
-
-I've also seen some other DJays on socials who would have _huge_ DJ libraries and they would spread said library accross multiple devices. Then, they'd use the name and colours to differentiate between their different music libraries / USB drives.<br>
-So, as an example, it could be split by style (House, D&B, Dubstep, etc), by time / era (Current, Archive, Oldies, etc) or even by set type (Main, Warmup, After, etc). 🏷️
-
-Of course, there's also people that just put a joke on there. I used to have "owo" as my backline drive and "èwé" as my DJ drive with funny pictures on the jog for each of them. 🌚
-
-{{<lead>}}Really, have fun or put anything useful there. What matters in the end is that devices are identified. ✨{{</lead>}}
+> [!tip] Get creative with them!
+>
+> I've seen some DJays put their email address or social media username as their device name (like [bsky@camp.jackle.ca](https://bsky.app/profile/camp.jackle.ca)) which is very handy in case it gets lost / forgotten! 🪪<br>
+> Actually, I think I'm gonna do that after writing this article. 👀
+>
+> I've also seen some other DJays on socials who would have _huge_ DJ libraries and they would spread said library accross multiple devices. Then, they'd use the name and colours to differentiate between their different music libraries / USB drives.<br>
+> So, as an example, it could be split by style (House, D&B, Dubstep, etc), by time / era (Current, Archive, Oldies, etc) or even by set type (Main, Warmup, After, etc). 🏷️
+>
+> Of course, there's also people that just put a joke on there. I used to have "owo" as my backline drive and "èwé" as my DJ drive with funny pictures on the jog for each of them. 🌚
+>
+> {{<lead>}}Really, just put whatever suits your needs the best. What matters is that devices are identified. ✨{{</lead>}}
 
 ### USB DJ settings
 
@@ -239,12 +238,10 @@ This part is also overlooked often by DJays even though they successfully ID-ed 
 Indeed, Rekordbox allows to configure a bunch of performance settings to save _right on the USB key_.
 Meaning that once hopping on stage, after the USB drive is plugged in and shown in the <mark>SOURCE</mark> menu, it is possible to load the DJ settings that were configured at home on Rekordbox. Neat!
 
-#### What can bet changed and where
-
-A lot actually! I'll quickly run down through all of them.
+Here's a little tour of what can be changed there. Every important tab to configure are marked with a ❕.
 
 {{<tabs>}}
-  {{<tab label="General">}}
+  {{<tab label="General ❕">}}
   This one has all the essentials to at least get started including:
 
    - Waveform colour, position and divisions
@@ -261,24 +258,24 @@ A lot actually! I'll quickly run down through all of them.
   {{</tab>}}
   
   {{<tab label="Sort">}}
-  Less crucial of a setting to set but, again, getting new ones shown _on device_ is a bit hard. Set this in advance.
+  Less crucial of a setting to set but, again, getting new ones shown _on device_ is a bit hard. I suggest to set this in advance to not loose time with that on stage.
 
   ![Screenshot of Rekordbox' device (USB key) view showing my "Sort" panel.](attachments/rekordbox-usb-sort.webp "I have set my sorting methods to include <mark>KEY</mark>, <mark>BPM</mark>, <mark>RATING</mark>, <mark>GENRE</mark> and <mark>DATE ADDED</mark> as they're the most useful for me.")
   {{</tab>}}
   
   {{<tab label="Column">}}
-  This chooses what information is displayed next to track names when browsing the library.
+  This chooses what information is displayed next to track names when browsing the library. I don't think it's possible to rearrange that _on device_. So, please also set that in advance.
 
   ![Screenshot of Rekordbox' device (USB key) view showing my "Column" panel.](attachments/rekordbox-usb-column.webp "I personnally set it to <mark>RATING</mark> since I use it as a way to tell the energy of tracks.")
   {{</tab>}}
   
-  {{<tab label="Color">}}
-  Just make sure that the Colour tags are set to the same names as in Rekordbox' application preferences. That's an easy thing to forget in the mix otherwise. 😅
+  {{<tab label="Color ❕">}}
+  Just make sure that the <mark>Color</mark> tags are named the same as in Rekordbox' application preferences. Once in the mix, that's easy to forget what each colour meant otherwise. 😅
 
   ![Screenshot of Rekordbox' device (USB key) view showing my "Color" panel.](attachments/rekordbox-usb-color.webp "In my case, I use the <mark>Color</mark> tag as a way to identify in which occasion I'd see myself playing a track.")
   {{</tab>}}
   
-  {{<tab label="My Settings">}}
+  {{<tab label="My Settings ❕">}}
   This is probably the most crucial part if DJing with different settings than the default ones.
   It shows what DJ settings are currently saved in the USB key and that's these settings that will be possible to load [later on](#load-my-settings).
 
@@ -291,16 +288,16 @@ A lot actually! I'll quickly run down through all of them.
   {{</tab>}}
 {{</tabs>}}
 
-So, yeah. There's a bunch of stuff and, of course, it won't give new features to older devices (like RGB waveforms that are absent on CDJ-2000NXS(1) and older).
-But it still sets everything up in one go and makes the whole kit ready to play.
+Indeed, there is a bunch of stuff there and, of course, it will **not** backport new features to older devices (like RGB waveforms that are absent on CDJ-2000NXS(1) and older).
+But it still sets the whole kit up to be ready to play quickly.
 
-{{<lead>}}So, please take the time to go through My Settings. It'll be ever useful. 😇{{</lead>}}
+{{<lead>}}Please take the time to go through My Settings. It'll be ever useful. 😇{{</lead>}}
 
 To learn more about each individual setting that's available on different CDJ models, check out [Chris M's <mark>CDJ My Settings Guide</mark> on HotCue DJ][chrism-hotcue-cdjmysettings]. He also has [an accompanying video on YouTube][chrism-hotcue-cdjmysettings-youtube] [<sup>(archive)</sup>][chrism-hotcue-cdjmysettings-youtube-archive] for it.
 
-#### Load "My Settings"
+### Loading "My Settings" on players
 
-Assuming a configured USB drive with the proper settings, it's pretty easy to get going now and there are three quick ways to get them loaded. ✨
+Once a storage device is set up with the desired settings, there's three ways to get the profile loaded on players. ✨
 
 1. By pressing the <kbd>MY SETTINGS LOAD</kbd> button on the right in the <mark>SOURCE</mark> menu
 2. By confirming <kbd>YES</kbd> to the <mark>Sync with My Settings?</mark> popup that shows after entering a library from a USB key
