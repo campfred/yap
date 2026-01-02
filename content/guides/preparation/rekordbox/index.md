@@ -34,10 +34,9 @@ This guide is structured in two main parts:
 
 Of course, table of contents allows you to jump at any spot, so don't forget to use it for quick navigation! 🔍
 
-{{<alert icon="castopod">}}
-**Looking for mixes to listen to?**<br>
-I publish my mixtapes in [a podcast][castopod-listen] and I also have [some demos available to listen][castopod-promo] if interested! 🎶
-{{</alert>}}
+> [!TIP]+ Looking for mixes to listen to?
+> I publish my mixtapes in [a podcast][castopod-listen] and I also have [some demos available to listen][castopod-promo] if interested! 🎶
+{icon="castopod"}
 
 ## USB drives
 
@@ -80,11 +79,9 @@ Here's the few specs to keep in check that will take care of the issues.
 
 {{<lead>}}Basically, just get a USB flash drive that is tested for ≥100 MB/s of random 4K read and write speeds.{{</lead>}}
 
-{{<alert cardColor="indianred" iconColor="light">}}
-**Portable SSDs are discouraged!**<br>
-Players and mixers are likely not providing enough power for running external / portable SSDs with them.[^2]
-Please, do not consider using these without providing additional / external power to the storage device.
-{{</alert>}}<br>
+> [!CAUTION] Portable SSDs are discouraged!
+> Players and mixers are likely not providing enough power for running external / portable SSDs with them.[^2]
+> Please, do not consider using these without providing additional / external power to the storage device.
 
 #### What do _I_ use?
 
@@ -111,12 +108,10 @@ This one's pretty simple as there's only two. Here's a small breakdown of them.
 
 {{<lead>}}Please use the <mark>MBR</mark> partitioning scheme for external storage.{{</lead>}}
 
-{{<alert icon="circle-info">}}
-**Switching between partitioning schemes**<br>
-A disk utility on a computer is required to switch between partitioning schemes.
-All operating systems include one and searching for "disk" will bring it up.
-However, depending on the specific utility, it may be needed to delete all partitions first before attempting to switch.
-{{</alert>}}
+> [!NOTE] Switching between partitioning schemes
+> A disk utility on a computer is required to switch between partitioning schemes.
+> All operating systems include one and searching for "disk" will bring it up.
+> However, depending on the specific utility, it may be needed to delete all partitions first before attempting to switch.
 
 ### File systems
 
@@ -151,10 +146,9 @@ This one has a little bit more possibilities and has led to some confusion from 
 
 {{<lead>}}Prefer using <mark>FAT32</mark> as the partition format unless more tech savvy or really need to.{{</lead>}}
 
-{{<alert icon="circle-info">}}
-A quick way to see if the USB drive is formatted properly for Rekordbox use is to look for a 🚫 icon next to it.
-This will indicate that file system is not supported by Rekordbox.
-{{</alert>}}
+> [!NOTE]
+> A quick way to see if the USB drive is formatted properly for Rekordbox use is to look for a 🚫 icon next to it.
+> This will indicate that file system is not supported by Rekordbox.
 
 #### How _I_ go about this?
 
