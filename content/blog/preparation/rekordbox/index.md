@@ -30,11 +30,11 @@ Hopefully you'll find something helpful in there. 💝
 This guide is structured in two main parts:
 
 1. [USB drives](#usb-drives), which is more focused on the hardware side of things (so, the USB drives themselves)
-2. [Rekordbox app and settings](#rekordbox-app-and-settings), which takes care of the software (Rekordbox) side of things (there's a lot of useful stuff there!)
+2. [Rekordbox app and DJ settings](#rekordbox-app-and-dj-settings), which takes care of the software (Rekordbox) side of things (there's a lot of useful stuff there!)
 
 Of course, table of contents allows you to jump at any spot, so don't forget to use it for quick navigation! 🔍
 
-> [!TIP]+ Looking for mixes to listen to?
+> [!tip] Looking for mixes to listen to?
 > I publish my mixtapes in [a podcast][castopod-listen] and I also have [some demos available to listen][castopod-promo] if interested! 🎶
 {icon="castopod"}
 
@@ -79,7 +79,7 @@ Here's the few specs to keep in check that will take care of the issues.
 
 {{<lead>}}Basically, just get a USB flash drive that is tested for ≥100 MB/s of random 4K read and write speeds.{{</lead>}}
 
-> [!CAUTION] Portable SSDs are discouraged!
+> [!caution] Portable SSDs are discouraged!
 > Players and mixers are likely not providing enough power for running external / portable SSDs with them.[^2]
 > Please, do not consider using these without providing additional / external power to the storage device.
 
@@ -109,7 +109,7 @@ This one's pretty simple as there's only two. Here's a small breakdown of them.
 
 {{<lead>}}Please use the <mark>MBR</mark> partitioning scheme for external storage.{{</lead>}}
 
-> [!TIP] Switching between partitioning schemes
+> [!tip] Switching between partitioning schemes
 > A disk utility on a computer is required to switch between partitioning schemes.
 > All operating systems include one and searching for "disk" will bring it up.
 > However, depending on the specific utility, it may be needed to delete all partitions first before attempting to switch.
@@ -166,7 +166,7 @@ This one has a little bit more possibilities and has led to some confusion from 
 >    It contains the latest firmware of all of the players I usually support in events (hence the FAT32 format) and there's also a basic but still good selection of my library for testing purposes and some light DJing.<br>
 >    It also contains other stuff like showfile templates and whatnot for lights, sound and stuff but these are out of scope for this guide.
 
-## Rekordbox app and settings
+## Rekordbox app and DJ settings
 
 This is the part of the preparation ritual that I really want to bring attention to because it has **a lot** of useful features that saves a lot of time for everyone and helps DJays feel more comfortable with the hardware pretty much instantly upon loading up their profile.
 I'm tempted to say that this is the most underrated and overlooked part of preperation but the impacts of having a good storage device hardware-wise makes it a tough call for me.
