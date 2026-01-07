@@ -1,7 +1,6 @@
 [[main]]
 pre = "mug-hot"
 name = "Blog"
-# pageRef = "posts/blog"
 pageRef = "blog"
 identifier = "VezlEO3Lmf"
 weight = 1
@@ -9,8 +8,7 @@ weight = 1
 [[main]]
 pre = "graduation-cap"
 name = "Guides"
-# pageRef = "posts/guides"
-pageRef = "guides"
+pageRef = "categories/guides"
 identifier = "zDj8TJLRqG"
 weight = 2
 
@@ -27,11 +25,11 @@ weight = 4
 # identifier = "NXLERJNY9i"
 # weight = 9_999
 
-# [[footer]]
-# name = "Categories"
-# pageRef = "categories"
-# identifier = "BDFpvtAniX"
-# weight = 9_999
+[[footer]]
+name = "Categories"
+pageRef = "categories"
+identifier = "BDFpvtAniX"
+weight = 9_999
 
 [[footer]]
 name = "Tags"
