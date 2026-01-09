@@ -8,6 +8,7 @@ draft: false
 categories:
   - blog
 tags:
+  - life
   - tech
 ---
 
