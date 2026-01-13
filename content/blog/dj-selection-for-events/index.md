@@ -46,29 +46,49 @@ How do I filter and select who to book for the event? I first consider the event
 
 ### About the event itself
 
-Knowing details about the event is more useful than it sounds. Some answers will actually help guiding some decisions while some others will simply be useful to regroup potentially useful infos in one place for communications.
+First, I start by gathering details about the event. It is more useful than it sounds as some answers will actually help guiding decisions and some others will be useful for easing up communications.
+So, here’s the questions I go through when I begin working on an event!
 
-- <mark>What is the name, location and date of the event?</mark>
-- <mark>What is the kind of event?</mark> _(festival, club, meetup, etc)_
-- <mark>What is the aesthetic of the event? Any style(s) to prefer or objective(s) to keep in mind?</mark>
-  Examples: A daytime Disco dance party, a Hard Dance fueled night to get smashed into the ground, a chill hangout evening to socialize with other people over nice Melodic House vibes…
-- <mark>How many DJ slots are desired and what are their running time?</mark>
-- <mark>What’s the compensation available for guest DJays? (budget or specific accommodations)</mark>
-- <mark>Any gear provided by the house available for performers to use?</mark>
-- <mark>Possibility to run complex / atypical setups?</mark> _(live music with Launchpads, keyboards and so on)_
-- <mark>Internet connection quality? (availability, speed, reliability)</mark>
-  It became increasingly common over the past year or so to encounter DJays expecting to use their streaming library at events. Even in some situation where the party takes place in the middle of the woods with barely any cell service or running water. So, it’s important to keep that detail close by.
+- Event infos
+  - Name
+  - Location
+  - Date
+  - Kind _(festival, club, social meet, etc)_
+  - Aesthetic<br>
+    Any style(s) to prefer or objective(s) to keep in mind?<br>
+    > [!example]
+    > - Daytime Disco dance party in a market
+    > - Hard Dance night to get smashed into the ground at a club
+    > - Chill hangout evening to socialize with other people over nice Melodic House vibes
+- Lineup situation
+  - Schedule(s) to cover
+  - Desired DJ set length 
+  - Number of DJ slots available _(depends on the schedule(s) divided by the desired running time)_
+- Operational details 
+  - Compensation available for guest DJays _(budget, fixed rates or specific accommodations)_
+  - Gear provided by the house for performers
+  - Possibility to run complex / atypical setups _(live music with instruments, Launchpads, keyboards and so on)_
+  - Internet connection quality _(availability, speed, reliability, accessibility)_<br>
+    > [!info]+ About Internet access for performers
+    > It became increasingly common over the past year or so to encounter disc-jockeys that expect to use their streaming library at events. Even in situations where the party takes place in the middle of the woods with barely any cellphone service or running water. So, it’s important to keep that detail close by and if it’s not available or there are quirks around it, it must be mentioned to them before they apply.
+
+{{<lead>}}Make sure you know your event before beginning communicating and coordinating with communities, partners and DJ candidates!{{</lead>}}
 
 ### About DJays
+
+Now that the event’s details details are laid out, I can now start asking questions to potential DJays!
+Usually, this is how I’d structure the form I send to candidates. Of course, some questions change depending on the event details gathered earlier.
 
 - Base infos
   - Legal name
   - Direct contact info (email / social media / phone)
 - Performance infos
-  - Desired stage name
+  - Stage name for this event
   - Music style to expect
   - Other music style(s) comfortable to play (if any, for backup purposes)
-  - Promo / demo recording (file upload field or public link, mention required specs like length and format)
+  - Promo / demo recording (file upload field or public link, mention required specs like length and format) 
 - Promotional infos
-  - Website and / or (for @mentions in event’s posts)
+  - Website and / or social media pages (for @mentions in event’s posts)
   - Social media manager’s contact (if any)
+
+{{<lead>}}Make sure to ask all the useful details right at the start! Nobody wants to run after candidates for missing infos later!{{</lead>}}
