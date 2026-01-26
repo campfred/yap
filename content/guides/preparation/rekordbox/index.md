@@ -100,8 +100,7 @@ This one's pretty simple as there's only two. Here's a small breakdown of them.
   - ✔ Compatible with all Pioneer DJ / AlphaTheta equipment (and also many other non-DJ stuff)
   - ✔ Supported for equipment firmware upgrades
   - ❕ New disks often don't ship with it nowadays
-  - ❌ Partition sizes are limited to 2 TB
-    > [!alert] Formatting tools may max out at 2 TB without giving any advice!
+  - ❌ Partition sizes are limited to 2 TB[^7]
 - <mark><abbr title="GUID Partition Table">GPT</abbr></mark><br>
   Newer of the two with limitations much higher than MBR.
   - ❕ Only compatible starting with the XDJ-XZ and often needs a firmware upgrade to support it
@@ -323,6 +322,7 @@ Of course, if you have any question about this, poke me on [any of my socials](/
 [^4]: The support documents about partition formats support on [the CDJ-3000X player][alphatheta-support-cdj3000x-partitionformats], [the XDJ-AZ all-in-one console][alphatheta-support-xdjaz-partitionformats] and [the OneLibrary device library (formerly Device Library Plus)][alphatheta-support-onelibrary-partitionformats], released over a month ago, mentions HFS+ today.
 [^5]: "When using an HFS+ format USB storage device, music files that use Hangul characters in the file name, artist name, or album name can't be loaded. In this case, use FAT32 formatted USB storage devices." — [AlphaTheta @ XDJ-RX3 support document][pioneerdj-support-xdjrx3-partitionformats]
 [^6]: "The old Device Library database is just that – old, slow, and limiting for modern hardware. So to support new gear, a new database was needed – and that’s what Device Library Plus is." — [Phil Morse @ Digital DJ Tips news blog](https://www.digitaldjtips.com/rekordbox-device-library-plus/#:~:text=The%20old%20Device%20Library%20database%20is%20just%20that%20%E2%80%93%20old%2C%20slow%2C%20and%20limiting%20for%20modern%20hardware%2E%20So%20to%20support%20new%20gear%2C%20a%20new%20database%20was%20needed%20%E2%80%93%20and%20that%E2%80%99s%20what%20Device%20Library%20Plus%20is)
+[^7]: "The 2-TB barrier is the result of this 32-bit limitation. Because the maximum number that can be represented by using 32 bits is 4,294,967,295, it translates to 2.199 TB of capacity by using 512-byte sectors (approximately 2.2 TB). Therefore, a capacity beyond 2.2 TB isn’t addressable by using the MBR partitioning scheme." – [Microsoft @ Learn Windows Server support document](https://learn.microsoft.com/en-us/troubleshoot/windows-server/backup-and-storage/support-for-hard-disks-exceeding-2-tb#more-information)
 
 <!-- Links -->
 
