@@ -4,7 +4,7 @@ description: Detailed guide on how to prepare for using standalone Rekordbox har
 summary: I lay out all of the tea on how to get a nice a USB drive for DJ-ing and how to make CDJs/XDJs use your own settings for performing. A true anxiety reliever. ❤️‍🩹
 draft: false
 date: 2025-12-31
-lastmod: 2026-01-02
+lastmod: 2026-01-26
 categories:
   - guides
 tags:
@@ -100,9 +100,11 @@ This one's pretty simple as there's only two. Here's a small breakdown of them.
   - ✔ Compatible with all Pioneer DJ / AlphaTheta equipment (and also many other non-DJ stuff)
   - ✔ Supported for equipment firmware upgrades
   - ❕ New disks often don't ship with it nowadays
+  - ❌ Partition sizes are limited to 2 TB
+    > [!alert] Formatting tools may max out at 2 TB without giving any advice!
 - <mark><abbr title="GUID Partition Table">GPT</abbr></mark><br>
   Newer of the two with limitations much higher than MBR.
-  - ❕ Only compatible starting with the XDJ-XZ and often needs a firmware upgrade to play from it
+  - ❕ Only compatible starting with the XDJ-XZ and often needs a firmware upgrade to support it
   - ❌ Unsupported for equipment firmware upgrades
   - ✔ Most disks are shipped with this scheme these days
 
