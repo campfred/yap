@@ -124,4 +124,10 @@ Useful to know for backup purposes if organizer is not taking on backup duties.
   - <mark>Social media manager’s contact (if any)</mark><br>
     Again, depending on the level of the event, this may not be needed. But it’s useful for coordinating marketing on socials. 
 
-{{<lead>}}Ask all the useful information right at the start! Nobody wants to run after candidates for extra details later!{{</lead>}}
+Now that all of the questions are laid out, I can not setup an online form or even a message (email or whatever) template for DJays to answer.
+
+Personally I prefer using a survey platform for gathering that information from DJays.
+For example, the popular ones with furry conventions are [Google Form](https://workspace.google.com/intl/en/products/forms/), [Microsoft Forms](https://forms.office.com) and [SurveyMonkey](https://surveymonkey.co.uk).
+Otherwise, if I’m handling it by myself with no event-provided resources, I’ll often use [Tally](https://tally.so) as it’s free (within reasonable use) and has been pretty easy to use.
+
+{{<lead>}}What matters is that all the useful information are asked right at the start! Nobody wants to run after candidates for extra details later!{{</lead>}}
