@@ -16,79 +16,112 @@ showTableOfContents: true
 
 Howdy! 🤠
 
-If you’re reading this, I assume you are either organizing events yourself or you’re curious about the subject no matter what role you’re playing in (if any).
+If you’re reading this, I assume you are either organizing events yourself or you’re curious about the subject!
+No matter what role you’re playing in (if any), I'm sure this will be an interesting one.
+So, sit down and get yourself a cup of coffee ☕️ (or tea 🍵).
 
-{{<lead>}}So, sit down and get yourself a cup of coffee ☕️ (or tea 🍵). I think it’s gonna be an interesting one. ✨{{</lead>}}
+## A bit of context
 
 I’ll start by giving the context in which I am writing this.
+That will help understand a bit where I am coming from with some statements that are further down this arcticle.
 
-I picked back up DJing and AV work in 2022. Since then, I’ve been involved in:
+I picked back up DJing and AV work in 2022 and since then, I have been involved in:
 
-- Performing DJ sets at events, both furcons / festivals like CanFURence, Furnal Equinox, Furpocalypse, Anthro New England and social meetups / clubs like FurXmas, Squeaky Cabin and LuckyDog
-- Supporting DJ backline and / or AV duties mainly for LuckyDog, Squeaky Cabin and FurXmas but was also counselling for some other events at times
-- Getting involved in organizing / coordinating DJays for FurXmas, Squeaky Cabin and LuckyDog
+- Performing DJ sets at events, both furcons / festivals (CanFURence, Furnal Equinox, Furpocalypse and Anthro New England) and social meetups / clubs (FurXmas, Squeaky Cabin and LuckyDog)
+- Supporting DJ backline and / or AV duties mainly for LuckyDog, Squeaky Cabin and FurXmas currently but was also counselling for some other events at times and historically have been doing AV for hire independantly pre-2020s
+- Getting involved in organizing / coordinating DJays for FurXmas, Squeaky Cabin and LuckyDog recently and historically for mid-size festivals pre-2020s
 
-However, every time I was discussing DJ coordination in events, a lot of people that were in the group were interested in the subject. There’s also a few questions I see often coming up often from DJays toward event organizers and there’s of course stuff I wish were improved in events I was participating in as a performer.
+However, every time I was discussing DJ coordination in events, I got surprised by how many people people were interested in the subject.
+There was also a few questions that I noticed were asked often by DJays to event organizers like a recurring theme that could have been addressed earlier in the process.
+Of course, I also noted some stuff I wish were improved in events I was participating in as a performer.
 
+So, I’ll split this post in two main sections that will be addressing the different parts of the story:
 
-I’ll split this post in two main sections that will be addressing the different parts of the story:
+1. [DJ candidates request and selection process](#dj-candidates-request-and-selection-process)
+2. [Coordinating the backline for DJays](#coordinating-the-backline-for-djays)
 
-1. DJ candidates request and selection
-2. Backline organization
+## DJ candidates request and selection process
 
-## DJ candidates request and selection
+### Gathering the important information
 
 Let’s assume a scenario: I’m coordinating or counselling for building a DJ lineup for an event. Maybe we have one DJ that’s going to be headlining the show but the rest of the lineup needs to be built still.
 
 I have received a bunch of demos where some are from DJays interested in or attending the event and some others are recommendations made to me for booking.
 
-How do I filter and select who to book for the event? I first consider the event itself then start to look at each individual DJays.
+How do I get started?
 
-### About the event itself
+#### About the event itself
 
-First, I start by gathering details about the event. It is more useful than it sounds as some answers will actually help guiding decisions and some others will be useful for easing up communications.
-So, here’s the questions I go through when I begin working on an event!
+First, I start by gathering details about the event. It is more useful than it sounds as some answers will guide decisions while some others will help easing up communications.
+
+So, here’s the questions I go through when I begin working on an event.
 
 - Event infos
-  - Name
-  - Location
-  - Date
-  - Kind _(festival, club, social meet, etc)_
-  - Aesthetic<br>
-    Any style(s) to prefer or objective(s) to keep in mind?<br>
+  - <mark>Name</mark><br>
+    What’s the name of the event?
+  - <mark>Location (city and venue)</mark><br>
+    Where is it located? Is it in a hotel, park, etc?
+  - <mark>Date (date and time)</mark><br>
+    When is it happening? When does it end?
+  - <mark>Kind</mark><br>
+    Is it like a festival? A club? Maybe a social meet?
+  - <mark>Aesthetic</mark><br>
+    Is there any style(s) to prefer or objective(s) to keep in mind?<br>
     > [!example]
-    > - Daytime Disco dance party in a market
+    > - Daytime Disco dance party in a outdoor market featuring local talents
     > - Hard Dance night to get smashed into the ground at a club
-    > - Chill hangout evening to socialize with other people over nice Melodic House vibes
+    > - Chill hangout evening to socialize with other people over nice Melodic House vibes while the sun is going down on a terrasse
 - Lineup situation
-  - Schedule(s) to cover
-  - Desired DJ set length 
-  - Number of DJ slots available _(depends on the schedule(s) divided by the desired running time)_
+  - <mark>Schedule(s) to cover</mark>
+    Are DJays needed from 8 to 12 PM for example? 
+  - <mark>Desired DJ set length<mark/><br>
+    This depends on the atmosphere of the event but how long would it be desirable for each DJ to play?
+    > [!example]
+    > - Shorter (~1h/slot) for active dance parties and shows
+    > - Longer (~2h/slot) for passive chill background sessions
+    > Ideally not mixing both kind of lineups in the same event.
+  - <mark>Number of DJ slots available</mark><br>
+    ‘Depends on the schedule(s) total length divided by the desired running time.
 - Operational details 
-  - Compensation available for guest DJays _(budget, fixed rates or specific accommodations)_
-  - Gear provided by the house for performers
-  - Possibility to run complex / atypical setups _(live music with instruments, Launchpads, keyboards and so on)_
-  - Internet connection quality _(availability, speed, reliability, accessibility)_<br>
-    > [!info]+ About Internet access for performers
-    > It became increasingly common over the past year or so to encounter disc-jockeys that expect to use their streaming library at events. Even in situations where the party takes place in the middle of the woods with barely any cellphone service or running water. So, it’s important to keep that detail close by and if it’s not available or there are quirks around it, it must be mentioned to them before they apply.
+  - <mark>Compensation available for guest DJays</mark><br>
+    Can vary depending on the event but important to note if there is a budget, fixed rates or specific accommodations for guest DJs.
+  - <mark>Gear provided by the house for performers</mark><br>
+    A bit more rare outside of big events, but if there is DJ equipment available for use, it is important to keep note of it.
+  - <mark>Possibility to run complex / atypical setups</mark><br>
+    Can live music with instruments, Launchpads, keyboards and so on be done or it’s preferable not to?
+  - <mark>Internet connection quality</mark><br>
+    Will there be an Internet connection available for accessing online music libraries? If so, noting the availability, speed, reliability and accessibility may be handy.
+    > [!info] About Internet access for performers
+    > It became increasingly common over the past year or so to encounter disc-jockeys that expect to use their streaming library at events. Even in situations where the party takes place in the middle of the woods with barely any cellphone service or running water. So, it’s important to keep that detail close by and if it’s not available or there are quirks around it, it would be appreciated to be mentioned to them before they apply.
 
-{{<lead>}}Make sure you know your event before beginning communicating and coordinating with communities, partners and DJ candidates!{{</lead>}}
+{{<lead>}}Get to know your event before communicating and coordinating with communities, partners and candidates!{{</lead>}}
 
-### About DJays
+#### About DJays
 
-Now that the event’s details details are laid out, I can now start asking questions to potential DJays!
-Usually, this is how I’d structure the form I send to candidates. Of course, some questions change depending on the event details gathered earlier.
+Now that the event’s details are laid out, it’s time to think about asking questions to potential DJays!
+
+Assuming I’d have a application process, I like to plan my questions sent to them and organize them logically.
+Of course, some questions change depending on the event details gathered earlier.
 
 - Base infos
-  - Legal name
-  - Direct contact info (email / social media / phone)
+  - <mark>Legal name</mark><br>
+    Very useful for matching their attendance entry for crediting their registration, but ask only if necessary.
+  - <mark>Direct contact info</mark><br>
+    Any email, phone or social media (depending on what’s desired or appropriate) that can be used for contacting them or their manager directly?
 - Performance infos
-  - Stage name for this event
-  - Music style to expect
-  - Other music style(s) comfortable to play (if any, for backup purposes)
-  - Promo / demo recording (file upload field or public link, mention required specs like length and format) 
+  - <mark>Stage name for this event</mark><br>
+    What name to use for presentations, announcements and other public communications.
+  - <mark>Music style to expect</mark><br>
+    Handy for filtering and marketing purposes! 
+  - <mark>Other music style(s) comfortable to play (if any)</mark>
+Useful to know for backup purposes if organizer is not taking on backup duties.
+  - <mark>Promo / demo recording</mark><br>
+    Depending on the platform used, it could be a file upload field and / or public link.
+    Do not forget to mention required specs like length and file format!
 - Promotional infos
-  - Website and / or social media pages (for @mentions in event’s posts)
-  - Social media manager’s contact (if any)
+  - <mark>Website and / or social media pages</mark><br>
+    For @mentions and other links in the event’s posts.
+  - <mark>Social media manager’s contact (if any)</mark><br>
+    Again, depending on the level of the event, this may not be needed. But it’s useful for coordinating marketing on socials. 
 
-{{<lead>}}Make sure to ask all the useful details right at the start! Nobody wants to run after candidates for missing infos later!{{</lead>}}
+{{<lead>}}Ask all the useful information right at the start! Nobody wants to run after candidates for extra details later!{{</lead>}}
