@@ -118,6 +118,14 @@ Of course, some questions change depending on the event details gathered earlier
   - <mark>Promo / demo recording</mark><br>
     Depending on the platform used, it could be a file upload field and / or public link.
     Do not forget to mention required specs like length and file format!
+    > [!example] What do _I_ request to disc-jockeys?
+    > I usually request a live recording similar to what they'd like to play as I tend to prefer evaluating scenarios a like the one they'll be in.
+    > Otherwise, I'll request a demo tape to be the length of 1/2-3/4 the length of the time slots I want to book them for as a soft limit.
+    >
+    > Anything over that may not be listened in its entirity depending on the time I have available.
+    > Of course, this is mentioned when asking so that the artist knows about the process!
+    >
+    > So, say I'm looking for one hour (60 min) slots, I'll request a demo to be between 30 and 45 min and tolerate up 60 min.
 - Promotional infos
   - <mark>Website and / or social media pages</mark><br>
     For @mentions and other links in the event’s posts.
