@@ -43,7 +43,7 @@ And from my side, the changes are even more impactful.
 In the end, we're all winning and I'm motivated again to maintain this website. 🏆
 {{< /lead >}}
 
-If you wanna do a Hugo website too, I recommend checking out [Christian Lampa's tutorial on Hugo][christianlampa-youtube-hugo] which has been the template for this website. 📺
+If you wanna do a Hugo website too, I recommend checking out [Christian Lampa's tutorial on Hugo][christianlampa-youtube-hugo] [<sup>(archive)</sup>][christianlampa-youtube-hugo-archive] which has been the template for this website. 📺
 
 Of course, feel free to check its source code and use it as inspiration for your own! ✨
 
