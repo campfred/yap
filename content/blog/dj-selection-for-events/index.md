@@ -112,9 +112,9 @@ Of course, some questions change depending on the event details gathered earlier
   - <mark>Stage name for this event</mark><br>
     What name to use for presentations, announcements and other public communications.
   - <mark>Music style to expect</mark><br>
-    Handy for filtering and marketing purposes! 
+    Handy for filtering and marketing purposes!
   - <mark>Other music style(s) comfortable to play (if any)</mark>
-Useful to know for backup purposes if organizer is not taking on backup duties.
+    Useful to know for backup purposes if organizer is not taking on backup duties.
   - <mark>Promo / demo recording</mark><br>
     Depending on the platform used, it could be a file upload field and / or public link.
     Do not forget to mention required specs like length and file format!
