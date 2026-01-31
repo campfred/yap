@@ -139,3 +139,33 @@ The popular ones with furry conventions (but applies to other kinds of promoters
 Otherwise, when I’m handling it by myself with no event-provided resources, I often use [Tally](https://tally.so) as it’s free (within reasonable use) and has been pretty easy to use for me.
 
 {{<lead>}}What matters is that all the useful information are asked right at the start! Nobody wants to run after candidates for extra details later!{{</lead>}}
+
+Once you're setup and ready, go out and talk to DJays that you are interested to hire and send them your survey / questions if they're interested!
+Of course, a public announcement from the event itself is also a good strategy! Multiple events do that to allow discovering new talents. ✨
+
+### Selecting and arranging DJays
+
+Now, let's assume there's now a pool of talents interested and a choice must be made of who to pick for the lineup and how to arrange them accross the lineup.
+
+Some will have a scoring system to attempt to be objective in their evalatuation. Some will be subjective and just go with their preferences and ideas.
+Both methods are valid. It only comes down to what is the objective in the end.
+
+In my case, the events I run and / or support are not a place for competition between DJays. They're instead an experience tailored for the attendees and visitors.
+Therefore, my approach must focus on what will please the people coming to the event and that alone is more subjective than objective.
+I need to keep in mind the emotional factor of how the crowd will feel going from one act to another, dancing to some styles of music and etc.
+
+Of course, there's also some details that will be kept in mind that's still specific to DJays.
+The event has some part of the responsibility for an artist to perform adequately and therefore, it's gonna be important to keep those factors in mind.
+
+Although, it's not because there's subjectivity in my process that I am not organized and structured!
+So, let's dive into the details of how I analyze and select who to book at events.
+
+#### Selection questionnaire
+
+Let's assume I've got a nice little pool of candidates that I gathered their informations and promotional mixes to listen to.
+Here are the questions I'll go through for each of them, usually while I'm listening to their mixes so that ideas I get can be written down while they're fresh.
+Although, I usually go over everything (the promo tapes and the questionnaires) another time a few days later or so to have a fresh mind over it.
+
+#### Lineup building
+
+There can be a situation where I'd have a mix of veterans and new comers at the event. And in those cases, maybe I'll want to refrain from grouping artists of each category together in the lineup. That would allow for the sake of helping elevate the new acts during the show.
