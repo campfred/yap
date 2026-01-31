@@ -3,7 +3,7 @@ title: Welcome!
 description: First post of the blog welcoming visitors and giving some ideas of what to expect here.
 summary: Welcome to my new blog! This one's a beeg improvement over my previously Carrd-hosted site and it is also open source. ✨
 date: 2025-12-13
-lastmod: 2025-12-30
+lastmod: 2025-01-31
 draft: false
 categories:
   - blog
@@ -48,6 +48,7 @@ If you wanna do a Hugo website too, I recommend checking out [Christian Lampa's 
 Of course, feel free to check its source code and use it as inspiration for your own! ✨
 
 {{< github repo="campfred/yap" showThumbnail=false >}}
+<!-- Switch to referring to Codeberg once Cloudflare sources from it. -->
 <!-- {{< codeberg repo="campfred/yap" >}} -->
 
 In the meantime, I wish you a nice day and hope to see you again soon!
