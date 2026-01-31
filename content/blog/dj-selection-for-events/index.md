@@ -126,8 +126,8 @@ Useful to know for backup purposes if organizer is not taking on backup duties.
 
 Now that all of the questions are laid out, I can not setup an online form or even a message (email or whatever) template for DJays to answer.
 
-Personally I prefer using a survey platform for gathering that information from DJays.
-For example, the popular ones with furry conventions are [Google Form](https://workspace.google.com/intl/en/products/forms/), [Microsoft Forms](https://forms.office.com) and [SurveyMonkey](https://surveymonkey.co.uk).
-Otherwise, if I’m handling it by myself with no event-provided resources, I’ll often use [Tally](https://tally.so) as it’s free (within reasonable use) and has been pretty easy to use.
+Personally I prefer using a survey platform for gathering that information from DJays because it ensures the same questions are asked for everyone and it brings me back all of the answers in one single spot automatically.
+The popular ones with furry conventions (but applies to other kinds of promoters and events) are [Google Form](https://workspace.google.com/intl/en/products/forms/), [Microsoft Forms](https://forms.office.com) and [SurveyMonkey](https://surveymonkey.co.uk), depending on what they already have available or are already using.
+Otherwise, when I’m handling it by myself with no event-provided resources, I often use [Tally](https://tally.so) as it’s free (within reasonable use) and has been pretty easy to use for me.
 
 {{<lead>}}What matters is that all the useful information are asked right at the start! Nobody wants to run after candidates for extra details later!{{</lead>}}
