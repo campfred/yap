@@ -14,9 +14,9 @@ secondaryLogo = "frame_00_delay-0.03s.gif"
 description = "Camp's blog for hosting and sharing various notes and thoughts about various stuff. It may serve as a document repository for public interest stuff too sometimes. I dunno."
 
 [[params.author.links]]
-github = "https://github.com/campfred"
+castopod = "https://music.jackle.ca/@listen/links"
 [[params.author.links]]
-castopod = "https://music.jackle.ca"
+github = "https://github.com/campfred"
 [[params.author.links]]
 telegram = "https://campfred.t.me"
 [[params.author.links]]
