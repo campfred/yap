@@ -104,21 +104,27 @@ Assuming I’d have a application process, I like to plan my questions sent to t
 Of course, some questions change depending on the event details gathered earlier.
 
 - Base infos
-  - <mark>Legal name</mark><br>
-    Very useful for matching their attendance entry for crediting their registration, but ask only if necessary.
+  - <mark>Preferred name</mark><br>
+    Strictly useful for internal communications with the candidate.
+  - <mark>Pronouns</mark><br>
+    Basic gesture of respect to ensure proper communication.    
+  - <mark>Name on registration if different from preferred name</mark><br>
+    Only asked when there’s a process to match registrations with candidates. Usually when we intend to credit their registration for example.
   - <mark>Direct contact info</mark><br>
-    Any email, phone or social media (depending on what’s desired or appropriate) that can be used for contacting them or their manager directly?
+    Any email, phone or social media (depending on what’s desired or appropriate) that can be used for contacting them or their manager directly.
 - Performance infos
   - <mark>Stage name for this event</mark><br>
     What name to use for presentations, announcements and other public communications.
+  - <mark>Performer bio</mark><br>
+    Optional but helps understanding the performer’s context and also is often useful for marketing purposes.   
   - <mark>Music style to expect</mark><br>
-    Handy for filtering and marketing purposes!
+    Handy for filtering and, again, marketing purposes!
   - <mark>Other music style(s) comfortable to play (if any)</mark>
-    Useful to know for backup purposes if organizer is not taking on backup duties.
+    Useful to know for backup purposes if organizer is not taking on backup duties or there’s any need to extend their slot.
   - <mark>Promo / demo recording</mark><br>
     Depending on the platform used, it could be a file upload field and / or public link.
     Do not forget to mention required specs like length and file format!
-    > [!example] What do _I_ request to disc-jockeys?
+    > [!example]- What do _I_ request to disc-jockeys?
     > I usually request a live recording similar to what they'd like to play as I tend to prefer evaluating scenarios a like the one they'll be in.
     > Otherwise, I'll request a demo tape to be the length of 1/2-3/4 the length of the time slots I want to book them for as a soft limit.
     >
