@@ -162,9 +162,43 @@ So, let's dive into the details of how I analyze and select who to book at event
 
 #### Selection questionnaire
 
-Let's assume I've got a nice little pool of candidates that I gathered their informations and promotional mixes to listen to.
+Let's assume I've got a small pool of candidates that I gathered their informations and promotional mixes to listen to.
 Here are the questions I'll go through for each of them, usually while I'm listening to their mixes so that ideas I get can be written down while they're fresh.
 Although, I usually go over everything (the promo tapes and the questionnaires) another time a few days later or so to have a fresh mind over it.
+Of course, some criterias get tuned depending on the event! We don't want to book someone that's going ham on their bombastic sound effects on a chill gathering for example!
+
+- <mark>Baseline</mark><br>
+  Checking on a few things to ensure we don't end up booking the wrong people for the event.
+  - <mark>Perceived music style and feel</mark><br>
+    Not meant to knock down on people "mislabeling" their styles (because different people will still hear styles differently) but rather to bring it back to the coordinator's vision and verifying how it compares.
+  - <mark>Anything to report on socials that goes against the event</mark><br>
+    This section usually does not see any notes but it's meant to prevent accidentally booking some types of people that are not welcome in the community and event after a basic socials check.
+    > [!example]
+    > Nazis and transphobes are not welcome in the furry community. So, we make sure we don't end up booking one by accident.
+- <mark>Technical skills</mark><br>
+  Rating how skilled the performer was in the recording over different skills on a scale of 1 to 3, higher being better.
+  Of course, I always note down some comments about each rating as it helps comparing and explaining during discussions.
+  - <mark>Music selection</mark><br>
+    Evaluating if the music played make sense and enabled the mix to flow nicely and if it was appropriate for the event we're looking to build.
+  - <mark>Mixing / Transitions</mark><br>
+    Checking how good the transitions were between each song and if there was any surprise that came up during listening (routines, unexpected turns, etc).
+  - <mark>Effects usage</mark><br>
+    Rating if the effects used made sense in the mix and if they were they feeling out of place, overdone or unbalanced (too loud, out of sync, etc). 'Usually defaults to medium if none was noticed to allow candidates that use <abbr title="Sound Effects">SFX</abbr> creatively that sounds great to stand out.
+- <mark>History</mark><br>
+  This section will only happen if the candidate already played at this event before.
+  It serves as a way to steer toward candidates that were the most appreciated in past edition.
+  The rating is also on a scale of 1 to 3 where higher is better.
+  - <mark>Perception from attendees</mark><br>
+    Checking if they were appreciated by the attendees of the event so that we don't book someone that didn't fit or was not liked by the guests.
+  - <mark>Performance quality</mark><br>
+    Noting if the artist deliver a good show at the event.
+    Of course, considering any extraordinary mishaps that may have happened that could have negatively impacted their performance.
+    It's pretty rare to have a bad note here unless ending up booking the wrong person for the event or that they pulled a "fast one".
+  - <mark>Perception from staff</mark><br>
+    This one is meant more as a defence line against disc-jockeys that are particularly unenjoyable to work with.
+    It's pretty rare but it still happens sometimes and we usually like to give a pause of a year or two before booking them again. Allowing some time for things to change.
+
+{{<lead>}}In the end, we want to book the right DJs for the right event. Nobody (including artists!) will have a good time if they end up somewhere they don't fit in.{{</lead>}}
 
 #### Lineup building
 
