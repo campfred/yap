@@ -16,6 +16,8 @@ description = "Camp's blog for hosting and sharing various notes and thoughts ab
 [[params.author.links]]
 castopod = "https://music.jackle.ca/@listen/links"
 [[params.author.links]]
+codeberg = "https://codeberg.org/campfred"
+[[params.author.links]]
 github = "https://github.com/campfred"
 [[params.author.links]]
 telegram = "https://campfred.t.me"
