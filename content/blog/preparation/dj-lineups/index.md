@@ -250,7 +250,7 @@ Again, everything is divided in categories for better readability!
 
       > [!example] Typical shielding check
       > Nazis and transphobes are not welcome. Therefore, we make sure we don't end up booking one by accident.<br>
-      > #TransRightsHumanRights #NazisFuckOff
+      > **#TransRightsHumanRights #NazisFuckOff**
   {{</tab>}}
 
   {{<tab label="Technical skills">}}
@@ -394,9 +394,9 @@ Again, I like to split them by theme and the same strategy [as before when reque
       If it is preferred to go the route of asking DJs to provide connection details, we'd make it a radio button list with a choice to select.
 
       > [!example] Typical connections
-      > - 2*XLR
-      > - 2*JACK-TRS
-      > - 2*RCA
+      > - 2*<abbr title="X model connector with an added latch (L) feature, and resilient (R) neoprene rubber surrounding the female contacts">XLR</abbr>
+      > - 2*JACK-<abbr title="Tip Ring Sleeve">TRS</abbr>
+      > - 2*<abbr title="Radio Corporation of America">RCA</abbr>
     - <mark>Booth audio outputs (if known)</mark><br>
       This isn't always possible to use depending on the show's setup and also the performer's hardware.
       But it is handled the same as the previous question.
