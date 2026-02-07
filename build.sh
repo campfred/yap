@@ -18,7 +18,6 @@ main() {
   DART_SASS_VERSION=1.96.0
   GO_VERSION=1.25.5
   HUGO_VERSION=0.152.2
-  NODE_VERSION=24.12.0
 
   export TZ=UTC
 
@@ -44,19 +43,11 @@ main() {
   rm "hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
   export PATH="${HOME}/.local/hugo:${PATH}"
 
-  # Install Node.js
-  echo "☕ Installing Node.js ${NODE_VERSION}..."
-  curl -sLJO "https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-x64.tar.xz"
-  tar -C "${HOME}/.local" -xf "node-v${NODE_VERSION}-linux-x64.tar.xz"
-  rm "node-v${NODE_VERSION}-linux-x64.tar.xz"
-  export PATH="${HOME}/.local/node-v${NODE_VERSION}-linux-x64/bin:${PATH}"
-
   # Verify installations
   echo "✅ Verifying installations..."
   echo Dart Sass: "$(sass --version)"
   echo Go: "$(go version)"
   echo Hugo: "$(hugo version)"
-  echo Node.js: "$(node --version)"
 
   # Configure Git
   echo "🌳 Configuring Git..."
@@ -70,10 +61,7 @@ main() {
 
   # Configure themes
   echo "🎨 Configuring Hugo themes..."
-  # npm install
-  # blowfish-tools install
   git submodule update --init --recursive
-  # git reset --hard HEAD
 
   # Build the site
   echo "🏗️ Building Hugo site..."
