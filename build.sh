@@ -76,7 +76,20 @@ main() {
 
   # Build the site
   echo "🏗️ Building Hugo site..."
-  hugo --minify --gc
+  
+  # Detect current git branch and main branch (can be overridden with GIT_MAIN_BRANCH env var)
+  CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+  MAIN_BRANCH="${GIT_MAIN_BRANCH:-main}"
+  BUILD_ARGS="--minify --gc"
+  
+  if [ "${CURRENT_BRANCH}" != "${MAIN_BRANCH}" ]; then
+    echo "📝 Building preview for branch '${CURRENT_BRANCH}' - including drafts and future content"
+    BUILD_ARGS="${BUILD_ARGS} --buildDrafts --buildFuture"
+  else
+    echo "🚀 Building production for ${MAIN_BRANCH} branch"
+  fi
+  
+  hugo ${BUILD_ARGS}
 
   echo "✨ Build completed successfully!"
 }
