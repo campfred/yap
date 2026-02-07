@@ -8,9 +8,12 @@ lastmod: 2026-02-07
 categories:
   - guides
 tags:
-  - party
-  - event
   - organizing
+  - event
+  - music
+  - audiovisual
+  - djing
+  - backline
 showTableOfContents: true
 ---
 
