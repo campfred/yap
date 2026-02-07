@@ -367,6 +367,7 @@ Again, I like to split them by theme and I would use the same strategy as before
     - <mark>Additional equipment to integrate or special request (no promises on possibility)</mark>
       Again, that is one question that will depend on how the event and the technical side of things is organized.<br>
       But this usually serves as an opportunity for some DJays to mention they'd like to plug in their drum machine or have an effects processor (like the AlphaTheta RMX-IGNITE) also available for example.
+  {{</tab>}}
 {{</tabs>}}
 
 {{<lead>}}This is crucial to get these details for a smoothly operating show with minimal setup times. ❤️‍🩹{{</lead>}}
@@ -378,7 +379,7 @@ Depending on the results, it may be needed to check back with some artists and n
 > I wrote a whole guide on how to get USB sticks prepared for use with Rekordbox hardware in standalone mode.
 > It might be worth sharing it to them. 😉
 >
-> {{<article link="/blog/preparation/rekordbox/" showSummary=true compactSummary=true>}}
+> {{< article link="/blog/preparation/rekordbox/" showSummary=true compactSummary=true >}}
 {icon="rekordbox"}
 
 ## Now what?
