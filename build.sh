@@ -70,9 +70,10 @@ main() {
 
   # Configure themes
   echo "🎨 Configuring Hugo themes..."
-  npm install
-  blowfish-tools install
-  git reset --hard HEAD
+  # npm install
+  # blowfish-tools install
+  git submodule update --init --recursive
+  # git reset --hard HEAD
 
   # Build the site
   echo "🏗️ Building Hugo site..."
