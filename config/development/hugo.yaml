@@ -2,7 +2,7 @@
 # https://gohugo.io/quick-reference/glossary/#environment
 
 # Exclude folders containing large numbers of images
-buildDrafts = true
-buildFuture = true
-renderToMemory = true
-disableFastRender = true
+buildDrafts: true
+buildFuture: true
+renderToMemory: true
+disableFastRender: true

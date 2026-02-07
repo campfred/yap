@@ -1,0 +1,33 @@
+main:
+  - pre: mug-hot
+    name: Blog
+    pageRef: blog
+    identifier: VezlEO3Lmf
+    weight: 1
+  - pre: graduation-cap
+    name: Guides
+    pageRef: categories/guides
+    identifier: zDj8TJLRqG
+    weight: 2
+  - pre: castopod
+    name: Mixtapes
+    url: 'https://music.jackle.ca/@listen/links'
+    identifier: YEdyTsJ0Vl
+    weight: 4
+  - pre: github
+    url: 'https://github.com/campfred/yap'
+    identifier: D6W3MEzy8Z
+    weight: 9999
+footer:
+  # - name: Sections
+  #   pageRef: posts
+  #   identifier: NXLERJNY9i
+  #   weight: 9_999
+  - name: Categories
+    pageRef: categories
+    identifier: BDFpvtAniX
+    weight: 9999
+  - name: Tags
+    pageRef: tags
+    identifier: OFZdzCWI7b
+    weight: 9999

@@ -31,6 +31,16 @@ npx blowfish-tools new $website_name
 
 Source: [Blowfish docs: Getting started > Installation > Blowfish Tools (recommended)](https://blowfish.page/docs/installation/#blowfish-tools-recommended)
 
+### Pull and serve the site for local development
+
+```shell
+git clone --recurse-submodules -j8 {git_url}
+# or
+git clone {git_url}
+git submodule update --init --recursive
+cd yap
+```
+
 ### Update the site
 
 ```shell
@@ -38,13 +48,13 @@ brew upgrade hugo
 brew update fnm
 fnm install v24
 fnm use v24
-npx blowfish-tools update
+git submodule update --remote --merge
 ```
 
 ### Serve the site locally with draft and future blog
 
 ```shell
-hugo serve --buildDrafts --buildFuture
+hugo serve --environment development
 ```
 
 Source: [Blowfish docs: Getting started > Installing updates > Update using Hugo](https://blowfish.page/docs/installation/#update-using-hugo)
