@@ -1,5 +1,5 @@
 ---
-title: DJ selection for event bookings
+title: DJ lineup booking and building
 description: Writeup on how to evaluate potential DJays for an event and also some extra tips around coordinating the lineup and DJ backline.
 summary: I give some tips on how to select and manage DJays for events and managing the lineup and backline. It's more complex than it sounds. 😅
 draft: false
