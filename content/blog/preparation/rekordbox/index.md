@@ -4,7 +4,7 @@ description: Detailed guide on how to prepare for using standalone Rekordbox har
 summary: I lay out all of the tea on how to get a nice a USB drive for DJ-ing and how to make CDJs/XDJs use your own settings for performing. A true anxiety reliever. ❤️‍🩹
 draft: false
 date: 2025-12-31
-lastmod: 2026-01-26
+lastmod: 2026-02-07
 categories:
   - guides
 tags:
@@ -32,7 +32,7 @@ This guide is structured in two main parts:
 1. [USB drives](#usb-drives), which is more focused on the hardware side of things (so, the USB drives themselves)
 2. [Rekordbox app and DJ settings](#rekordbox-app-and-dj-settings), which takes care of the software (Rekordbox) side of things (there's a lot of useful stuff there!)
 
-Of course, table of contents allows you to jump at any spot, so don't forget to use it for quick navigation! 🔍
+Of course, the table of contents allows you to jump at any spot, so don't forget to use it for quick navigation! 🔍
 
 > [!tip] Looking for mixes to listen to?
 > I publish my mixtapes in [a podcast][castopod-listen] and I also have [some demos available to listen][castopod-promo] if interested! 🎶

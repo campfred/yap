@@ -3,8 +3,8 @@ title: DJ selection for event bookings
 description: Writeup on how to evaluate potential DJays for an event and also some extra tips around coordinating the lineup and DJ backline.
 summary: I give some tips on how to select and manage DJays for events and managing the lineup and backline.
 draft: true
-date: 2026-02-06
-lastmod: 2026-02-06
+date: 2026-02-07
+lastmod: 2026-02-07
 categories:
   - guides
 tags:
@@ -34,7 +34,7 @@ Since then, I was involved in:
 
 However, every time I was discussing DJ coordination, I got surprised by how many people people were interested in the subject.
 I also noticed some questions being asked often by DJays to event organizers like a recurring theme that could have been addressed earlier in the process.
-And then there's some stuff I wish were improved in events I was participating as a performer.
+And then there's some stuff I wish were improved in events I was participating as a performer. 🫠
 
 So, I’ll split this post in two main sections that will be addressing the different parts of the story:
 
@@ -42,7 +42,13 @@ So, I’ll split this post in two main sections that will be addressing the diff
 2. [Selecting and arranging talents](#selecting-and-arranging-talents)
 3. [Coordinating the backline for DJays](#coordinating-the-backline-for-djays)
 
-{{<lead>}}Don't forget to adapt accordingly if you want to follow my steps! These are written as general guidance to cover as many situations as possible!{{</lead>}}
+{{<lead>}}Don't forget to adapt accordingly if you want to follow my steps! These are written as general guidance to cover as many situations as possible! 🙏{{</lead>}}
+
+Of course, the table of contents allows you to jump at any spot, so don't forget to use it for quick navigation! 🔍
+
+> [!tip] Looking for mixes to listen to?
+> I publish my mixtapes in [a podcast][castopod-listen] and I also have [some demos available to listen][castopod-promo] if interested! 🎶
+{icon="castopod"}
 
 ## Candidates request
 
@@ -55,7 +61,7 @@ First, let's think about the event itself as it will be very helpful later on.
 
 This part is often done mentally in some implicit way but I want to write it here still as some details can be overlooked and it's always useful to keep some notes close-by when interacting with potential artists to book.
 
-So, here’s the questions or bullet points I would go through when I begin working on an event and organized in three different subjects.
+So, here’s the questions or bullet points I would go through when I begin working on an event and organized in three different subjects. 👀
 
 {{<tabs>}}
   {{<tab label="Event">}}
@@ -112,14 +118,15 @@ So, here’s the questions or bullet points I would go through when I begin work
   {{</tab>}}
 {{</tabs>}}
 
-{{<lead>}}Get to know your event before coordinating with communities, partners and candidates!{{</lead>}}
+{{<lead>}}Get to know your event before coordinating with communities, partners and candidates! 🤓{{</lead>}}
 
 Now, it's time to think about the music acts!
 
 ### Getting information about the music performers themselves
 
 This part is probably the most important because asking for all the needed infos right at the beginning will ease coordination a lot.
-So, here's the questions I ask them divided by subject. Those usually apply no matter if I pro-actively contact DJays or if I receive applications passively.
+So, here's the questions I ask them divided by subject.
+Those usually apply no matter if I pro-actively contact DJays or if I receive applications passively. 🧑‍💻
 
 {{<tabs>}}
   {{<tab label="Base">}}
@@ -171,12 +178,12 @@ So, here's the questions I ask them divided by subject. Those usually apply no m
   {{</tab>}}
 {{</tabs>}}
 
-{{<lead>}}It is really important that all the useful information are asked right at the start! Nobody wants to run after candidates for extra details later!{{</lead>}}
+{{<lead>}}It is really important that all the useful information are asked right at the start! Nobody wants to run after candidates for extra details later! ❤️‍🩹{{</lead>}}
 
 #### How to collect that information from candidates
 
 Personally, I prefer using a survey platform for gathering that information from DJays.
-It ensures the same questions are asked to everyone and it provides all of the answers in the same place in a standardized manner (usually a spreadsheet with columns for each question).
+It ensures the same questions are asked to everyone and it provides all of the answers in the same place in a standardized manner (usually a spreadsheet with columns for each question). 👌
 
 The popular ones with furry conventions (but applies to other kinds of promoters and events) are [Google Form](https://workspace.google.com/intl/en/products/forms/), [Microsoft Forms](https://forms.office.com) and [SurveyMonkey](https://surveymonkey.co.uk) depending on what they already have available as part of their internal software ecosystem.
 Otherwise, when I’m handling that by myself with no event-provided resources, I often use [Tally](https://tally.so) as it’s free (within reasonable use) and has been pretty easy to use for me.
@@ -184,7 +191,8 @@ Otherwise, when I’m handling that by myself with no event-provided resources, 
 Of course, this can be an email template too! I've seen plenty of events ask their questions via email and it has worked well for them!
 
 Once you're setup and ready, go out and talk to DJays that you are interested to book and send them your survey / template if they're interested!
-Of course, a public announcement from the event itself is also a good strategy! Multiple events do that to allow discovering new talents. ✨
+Of course, a public announcement from the event itself is also a good strategy!
+Multiple events do that to allow discovering new talents. 👀
 
 ## Selecting and arranging talents
 
@@ -195,7 +203,7 @@ But first, let's evaluate some demos.
 ### Evaluation and selection of performers
 
 Usually, I'll be going through a bunch of questions while listening to their demo material so that I don't forget thoughts that come up while listening.
-Then, I'll go over everything another time a few days later or so to have a fresh mind over it.
+Then, I'll go over everything another time a few days later or so to have a fresh mind over it. ✨
 
 Again, everything is divided in categories for better readability.
 
@@ -264,11 +272,11 @@ Again, everything is divided in categories for better readability.
   {{</tab>}}
 {{</tabs>}}
 
-{{<lead>}}In the end, we want to book the right DJs for the right event. Nobody (including artists!) will have a good time if they end up somewhere they don't fit in!{{</lead>}}
+{{<lead>}}In the end, we want to book the right DJs for the right event. Nobody (including artists!) will have a good time if they end up somewhere they don't fit in! 🙏{{</lead>}}
 
 Now that everyone's evaluated, let's start building the lineup!
 
-#### Lineup building
+### Lineup building
 
 This part is probably the other step that can vary greatly from one coordinator to another.
 Personnally, I found myself stuck in some events where the lineup I was part of felt aimless because we didn't have much coherence between DJs relative to each other.
@@ -281,7 +289,7 @@ At this point, marketing (if any is needed) can already begin to announce their 
 > So, I'll be continuing to talk about the marketing aspect as if it was an event the DJs would be headlining (foreground role).
 
 Once we got some preferred DJays booked, we can continue building the lineup.
-Which means that, depending on who is confirmed, we start contacting other preferred candidates that would fit best with the partial lineup we've got already and insert them where appropriate on the schedule.
+Which means that, depending on who is confirmed, we start contacting other preferred candidates that would fit best with the partial lineup we've got already and insert them where appropriate on the schedule. 📝
 
 Of course, there will often be other factors taken in consideration when building the schedule.
 
@@ -293,7 +301,7 @@ Of course, there will often be other factors taken in consideration when buildin
 > It can happen that say out of all the artists that are being scheduled, half of them are playing music in one genre umbrella and the other half is in another umbrella. Like House and Uptempo.
 > When that happens, there's usually an incentive to keep DJs from the same umbrella style together as it serves to create chapters or phases through the event.
 
-{{<lead>}}The point really is to have a great show to present to attendees and the judgement from the coordinator is required to fill the gaps here.{{</lead>}}
+{{<lead>}}The point really is to have a great show to present to attendees and the judgement from the coordinator is required to fill the gaps when they appear. 👀{{</lead>}}
 
 Is it break time yet? Nah, we have the backline to check now!
 
@@ -303,14 +311,89 @@ Now is the section of work that some coordinators will have the most difficulty 
 In fact, the DJ backline is the role that bridges the gap between the AV island and the DJs.
 It ensures that DJs get connected and powered up to play and it also allows AV to prepare for welcoming DJ setups adequately into the show's systems.
 
+Some events will ask this in the same form as when requesting initial details from candidates, but I found that the situation changed often enough between that time and the moment AV is planning their gear to warrant asking that a bit later in the process.
+It also accidentally improved the sentiment some beginner DJays had when applying as they didn't suddenly feel like they might be discriminated for their setup. 💡
+
 Therefore, there's a few more questions I like to ask DJays once we have a lineup that's mostly confirmed already.
+Again, I like to split them by theme and I would use the same strategy as before [when I was requesting info from potential candidates](#getting-information-about-the-music-performers-themselves). So, a short survey or an email template to fill out.
 
 {{<tabs>}}
+  {{<tab label="Main details">}}
+    These questions are meant to know the kind of setup each DJ will be using in general and will decide which page of questions the DJ will land on.
+
+    - <mark>Stage name</mark>
+      Simply to match the data with each DJ.
+    - <mark>Using own equipment or using house-provided equipment (if available)</mark>
+      This one's pretty easy. 'Just checking if they're bringing their own DJ equipment (assuming this is allowed) or if they'd prefer using the house provided equipment if there's any provided.
+    - <mark>Link to performance visuals and logos</mark>
+      If there's visuals displayed on screens at the event, allow DJays to input a link to download them.<br>
+      It is also a good idea to mention they can contact us directly if they cannot host the contents behind a link and remind who to contact directly and how.
+  {{</tab>}}
+
+  {{<tab label="Personal DJ setups">}}
+    This page would be asked to DJays only if they'd answered to be using their own personal equipment and is meant to gather all of the useful information for AV to prepare.
+
+    - <mark>Make and model of mixer / console / controller</mark>
+      Not meant for judging them, it's just easier to check directly the <abbr title="Input / Output">I/O</abbr> specifications of their hardware than asking them to provide us all of the details.<br>
+      There will be artists who aren't tech savvy and won't know anything about their equipment and that is fine. We're just trying to accomodate and help them.
+    - <mark>Main audio outputs (if known)</mark>
+      Just in case, we double check (if they know) what audio connections will be needed for their main audio outputs.
+      Often we'd make it a radio button with a choice to select.
+      > [!example] Typical connections
+      > - 2*XLR
+      > - 2*JACK-TRS
+      > - 2*RCA
+    - <mark>Booth audio outputs (if known)</mark>
+      This isn't always possible to use, but same as previous question, we just want to verify that they'll be able to use their Booth audio outputs and controls on stage.
+    - <mark>Number of needed power outlets</mark>
+      Usually it would be only one, but we prefer to ask as sometimes they won't have their own powerbar to power multiple devices at once.
+      > [!example] DJ using a controller with a laptop
+      > They would usually need two power outlets. One for the laptop and the other for the controller.
+  {{</tab>}}
+
+  {{<tab label="House gear setup">}}
+    These questions are really aimed at gathering info on how they plan to use our own DJ gear during their performance as some details may have a great impact on setting up.<br>
+    Of course, please adapt in consequence of the gear that is provided.
+
+    - <mark>Playback library medium</mark>
+      Usually a radio buttons list containing all of the ways they can play on the equipment.
+      > [!example] Fully available AlphaTheta XDJ-AZ
+      > They'd have the following options to choose from.
+      >
+      > - USB thumb drive on the unit (usual setup)
+      > - Laptop with Rekordbox in Link Export mode connected to the unit via network
+      > - Laptop with Rekordbox in Link Export mode connected via USB
+      > - Laptop with Rekordbox in Performance mode with the unit via USB
+    - <mark>Additional equipment to integrate or special request (no promises on possibility)</mark>
+      Again, that is one question that will depend on how the event and the technical side of things is organized.<br>
+      But this usually serves as an opportunity for some DJays to mention they'd like to plug in their drum machine or have an effects processor (like the AlphaTheta RMX-IGNITE) also available for example.
 {{</tabs>}}
 
-<!-- Footnotes -->
+{{<lead>}}This is crucial to get these details for a smoothly operating show with minimal setup times. ❤️‍🩹{{</lead>}}
 
-[^1]: Furality's Club F.Y.N.N. has a whole application system that aims at judging candidates anonymously and objectively and it has been working well for them! Their [video on DJ judging criterias][furality-djjudging-youtube] [<sup>(archive)</sup>][furality-djjudging-youtube-archive] explains the process in details.
+Once all of that is gathered, it's time to report back to AV and negociate.
+Depending on the results, it may be needed to check back with some artists and negociate with them for a solution.
+
+> [!tip] Wanna help the beginners with getting their USBs ready for Rekordbox hardware?
+> I wrote a whole guide on how to get USB sticks prepared for use with Rekordbox hardware in standalone mode.
+> It might be worth sharing it to them. 😉
+>
+> {{<article link="/blog/preparation/rekordbox/" showSummary=true compactSummary=true>}}
+{icon="rekordbox"}
+
+## Now what?
+
+That's it! Keep going with your team and go out make the moments with the newly booked and prepared music acts! 🎉
+
+There was a lot of things to cover here but I hope I made it easy enough to follow.
+I began writing this after a friend of mine prompted me for tips on how to organize DJs as a complete newbie.
+But while I was writing my response to them, I realized that I was doing a lot of things mentally or in an implicit manner that is likely not gonna be thought of by someone who's not used to the AV field nor the events organization domain.
+Sometimes, it's the little things that spark other bigger things. ✨
+
+By the way, if you got questions about this whole thing, poke me on [any of my socials](/)!
+Also, if something isn't right, don't hesitate to open [an Issue](https://github.com/campfred/yap/issues) or even [a Pull request](https://github.com/campfred/yap/pulls) to suggest changes and I'll check it out. 💛
+
+{{<lead>}}Now, go inspire people and get your event off the ground. 🚀{{</lead>}}
 
 <!-- Links -->
 
