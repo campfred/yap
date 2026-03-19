@@ -16,14 +16,12 @@ params:
   author:
     links:
       - castopod: https://music.jackle.ca/@listen/links
+      - furtrack: https://furtrack.com/user/campfred/uploads
       - codeberg: https://codeberg.org/campfred
       - github: https://github.com/campfred
-      - telegram: https://campfred.t.me
-      - discord: https://discordapp.com/users/239771146478813185
       - bluesky: https://bsky.app/profile/camp.jackle.ca
-      - vrc: https://vrchat.com/home/user/usr_205175e8-775c-421e-a8f1-ca9b0d000ead
       - furaffinity: https://furaffinity.net/user/campfred
-      - lastfm: https://www.last.fm/user/campfred
+      - lastfm: https://last.fm/user/campfred
 params.author:
   name: Camp
   image: xmaseve event page 12.profile.png
