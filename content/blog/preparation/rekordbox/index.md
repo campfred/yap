@@ -201,7 +201,7 @@ Lexicon DJ also has [a very good write up][lexicondj-blog-devicelibraryplus] [<s
 
 ### Online music services in library
 
-> [!warn] Paid subscription is required for track metadata sync
+> [!warning] Paid subscription is required for track metadata sync
 > While it's possible to access streaming services on standalone players, it is required to have the </mark>CloudDirectPlay</mark> feature available to sync track metadata like hot cues, beatgrids and whatnot between the desktop app and the players.
 > This feature is only available for paid subscribers of Rekordbox with a plan that includes the Cloud Library Sync feature.
 
