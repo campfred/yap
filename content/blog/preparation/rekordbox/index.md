@@ -199,6 +199,28 @@ So, no need to manually request exporting to also the new database when bringing
 By the way, AlphaTheta maintains [a handy table][alphatheta-exportformats] [<sup>(archive)</sup>][alphatheta-exportformats-archive] showing which devices support what library format.
 Lexicon DJ also has [a very good write up][lexicondj-blog-devicelibraryplus] [<sup>(archive)</sup>][lexicondj-blog-devicelibraryplus-archive] breaking down all of the technical details between the two libraries if interested to learn more. ✨
 
+### Online music services in library
+
+> [!warn] Paid subscription is required for track metadata sync
+> While it's possible to access streaming services on standalone players, it is required to have the </mark>CloudDirectPlay</mark> feature available to sync track metadata like hot cues, beatgrids and whatnot between the desktop app and the players.
+> This feature is only available for paid subscribers of Rekordbox with a plan that includes the Cloud Library Sync feature.
+
+Using music streaming services is possible in standalone mode, including having access to playlists and hot cues.
+It's a bit obscure however how to enalbe that, so here are the steps for it.
+
+1. Open the <mark>My Page</mark> window by clicking on your <abbr title="Rekordbox">RB</abbr> account name in the top right corner
+2. In the new window that opened, switch to the <mark>LIBRARY SYNC</mark> tab
+3. Scroll down and enable <mark>Use rekordbox CloudDirectPlay.</mark>
+4. Exit out of the <mark>My Page</mark> window and open the <mark>Devices</mark> panel on the left sidebar
+5. Select the storage drive to use and click the <mark>Auth ☁️</mark> at the end of its name
+
+{{<lead>}}Now export your playlists to the USB stick! Your online tracks will be ready for you on the decks. 🔥{{</lead>}}
+
+> [!tip] Please use offline playback as much as possible
+> Please do not rely on streaming services for your on-stage performances.
+> Internet access on stage is not common and often not possible to have.
+> Therefore, having most of the content offline is still the way to go for performances with high stakes at play.
+
 ### Storage identification
 
 **Fun fact!** USB storage devices can be labeled on Rekordbox! And that label shows up on players and Rekordbox itself!<br>
