@@ -2,8 +2,8 @@
 title: LORA Mesh notes
 description: Some notes of mine about my experience with some LORA Mesh networks (Meshtastic and MeshCore)
 summary: Some personal notes about my experience with some LORA Mesh networks like Meshtastic and MeshCore. 📝🛜
-date: 2026-04-13
-lastmod: 2026-04-13
+date: 2026-04-25
+lastmod: 2026-04-25
 draft: true
 categories:
   - blog
@@ -43,35 +43,41 @@ And so, Meshtastic was picked to begin the journey with LORA Mesh.
 
 ### Getting started
 
-Getting it installed was really simple. While the radio shipped with a Heltec-provided Meshtastic firmware on it, it was pretty outdated and, at the time, not considered optimal when asking people online.
+Getting it installed was really simple actually.
 So, I flashed the latest official Stable / Beta firmware on it.
 
 > [!tip]- Flashing Meshtastic firmware onto a Heltec V4 radio
 > To flash the firmware, the radio needs to be in DFU mode. Here's how to do it on a Heltec V4 radio.
+>
 > 1. Press and hold down the BOOT / RESET button
 > 2. Connect radio to a computer
 > 3. Once connected, wait 1-2 seconds then release the BOOT / RESET button
 >
-> > [!tip] DFU mode with a battery attached
+> > [!info] DFU mode with a battery attached
 > > If the radio has a battery attached to it, holding both the USER and the BOOT / RESET button while plugged in to a computer should allow to bring it into DFU mode without having to open the case and pull the battery out.
 > {icon="mdi-power-plug-battery"}
 >
 > 4. Visit the [official web flasher](https://flasher.meshtastic.org) on a Chromium-based browser ([Helium](https://helium.computer) in my case)
 > 5. Select the Heltec V4 radio as the <mark>Target device</mark>
 > 6. Select the latest Stable / Beta firmware for install if it’s not already selected
-> 7. Check on the <mark>Erase device</mark> option
+> 7. Check ON the <mark>Full Erase and Install</mark> option
 >
 > > [!warning] Erasing is only needed for new installs!
 > > If you are already running Meshtastic on your device, keep the <mark>Erase device</mark> setting OFF to preserve your settings.
 > > Otherwise, you will lose all your settings and have to set up the radio again from scratch if you did not have a backup.
 >
-> 8. Click <mark>Flash</mark> to start the process
+> 8. Click <mark>⚡ Flash</mark> to start the process
 > 9. Select the <mark>USB JAG/serial debug unit</mark> device that shows in the browser’s serial device selection pop up
 > 10. Wait for the process to complete
-> 11. Open the web client (or the mobile app) and connect to the radio
+> 11. Open the [web client](https://client.meshtastic.org) (or the mobile app) and connect to the radio
 > 12. Set the appropriate region of use (US in my case)
 > 13. Explore and have fun! 🎉
 {icon="download"}
+
+> [!info] About the factory-provided firmware
+> While the radio shipped with a Heltec-provided Meshtastic firmware on it, it was pretty outdated and, at the time, not considered optimal when asking people online.
+> However, some still noted having better power management and even better radio transmittion performance too in some occasions.
+> So, it might be worth trying it out if the official firmware doesn't work well for your use case.
 
 From there, it’s pretty easy and mostly a matter of setting up the node’s name (short and long) and maybe a few other settings depending on the use case.
 
@@ -79,7 +85,7 @@ Luckily, my local Meshtastic community is running off the default LORA radio set
 
 And now began my observations on the system. 👀
 
-#### Node roles
+### Node roles
 
 I’ve been pleasantly surprised to see that everything is included in the same single firmware. Meaning I can flash the same firmware binaries for a client and for a repeater and only the configuration will determine their role and behaviour.
 As someone who is used to cases like RAID cards needing a different firmware to run in an alternative mode, that was really refreshing for me.
@@ -113,7 +119,7 @@ Later, if you have some extra nodes, mainly one that stays at home, you could se
 
 If you have some more extra nodes that can be placed at high altitude in the area, installing <mark>🛜 Repeater</mark> nodes to extend the mesh coverage is very handy to contribute to the network.
 
-#### Private channels
+### Private channels
 
 Another thing I was happy about is the existence of private channels that are set up with a private pre-shared encryption key.
 Of course, this shouldn't be used for transmitting sensitive information, but I found it was great to use with private communities to prevent polluting the public channel with messages that are more private anyway.
@@ -127,7 +133,7 @@ Therefore, kicking me out of the local mesh even while still having the public c
 
 In order to stay connected with my local community, I needed to use [Meshtastic’s Frequency Slot Calculator](https://meshtastic.org/docs/overview/radio-settings/#frequency-slot-calculator) to obtain the slot number associated with the default frequency with the US preset and join back my local mesh community.
 
-#### Reliability
+### Reliability
 
 While this tech was fun to use in testing, I unfortunately wasn't able to reliably transmit or receive messages with friends through hops.
 I am still unsure about the source of the issue but I believe the hardware that I was using (Heltec V4 with the small and curly antenna) was not entirely at fault since direct communications were working fine.
@@ -146,15 +152,74 @@ Especially considering its different approach to routing that relies more on rep
 > [!info] Firmware version used at the time of testing
 > Version v1.14.1 (Companion – Bluetooth) was installed from the [official web flasher](https://flasher.meshcore.co.uk).
 
+Now came the time to start using <abbr title="MeshCore">MC</abbr> and see how it performs compared to <abbr title="Meshtastic">MT</abbr>.
+Not gonna lie, reading the summaries of differences between these two solutions made me pretty excited to try it out and see how it performs in real life.
+It has a lot of potential for addressing the issues I was having with <abbr title="Meshtastic">MT</abbr>.
+And so, I took a backup of my Meshtastic settings and private key and flashed the MeshCore firmware on my radio.
+
 ### Getting started
 
+Again, installing it on a node was very simple and pretty much the same as with Meshtastic.
+
+> [!tip]- Flashing MeshCore firmware onto a Heltec V4 radio
+> To flash the firmware, the radio needs to be in DFU mode. Here's how to do it on a Heltec V4 radio.
+>
+> 1. Press and hold down the BOOT / RESET button
+> 2. Connect radio to a computer
+> 3. Once connected, wait 1-2 seconds then release the BOOT / RESET button
+>
+> > [!info] DFU mode with a battery attached
+> > If the radio has a battery attached to it, holding both the USER and the BOOT / RESET button while plugged in to a computer should allow to bring it into DFU mode without having to open the case and pull the battery out.
+> {icon="mdi-power-plug-battery"}
+>
+> 4. Visit the [official web flasher](https://flasher.meshcore.io) on a Chromium-based browser ([Helium](https://helium.computer) in my case)
+> 5. Select the Heltec V4 radio as the <mark>Target device</mark>
+> 6. Select the <mark>Companion Bluetooth</mark> role
+> 7. Check ON the <mark>Erase device</mark> option
+>
+> > [!warning] Erasing is only needed for new installs!
+> > If you are already running Meshtastic on your device, keep the <mark>Erase device</mark> setting OFF to preserve your settings.
+> > Otherwise, you will lose all your settings and have to set up the radio again from scratch if you did not have a backup.
+>
+> 8. Click <mark>⚡ Flash</mark> to start the process
+> 9. Select the <mark>USB JAG/serial debug unit</mark> device that shows in the browser’s serial device selection pop up
+> 10. Wait for the process to complete
+> 11. Open the the mobile app (or [web app](https://app.meshcore.nz) if flashed the <mark>Companion USB</mark> role) and connect to the radio
+> 12. Set the appropriate region of use (US in my case)
+> 13. Explore and have fun! 🎉
+{icon="download"}
+
+From there, it was again a matter of setting up the node's name, applying the US radio preset and a few other settings for the use case.
+
+Unluckily, my local MeschCore community was not very present in my area. So, I could only test it out on days I would go work on site.
+This didn't stop me from trying it out and discovering it! 🔥
+
+### Node roles
+
+MeshCore is pretty simple in comparison when it comes to node roles as there are only three.
+
+- <mark>📱 Companion</mark><br>
+  The only role to use unless you want to help building the network.<br>
+  It is the only role that can connect to the app for sending and receiving messages.
+- <mark>🛜 Repeater</mark><br>
+  Pretty self-explanatory. It rebroadcasts messages to extend the mesh coverage but doesn't connect to the app.
+- <mark>💬 Room server</mark><br>
+  Basically a post office for the mesh.<br/>
+  They are a "store-and-forward" bulletin board that holds the last 32 messages of a configured channel and delivers them to you when you come back.<br/>
+  Useful if you intend to have a channel with a community and do not want to miss the messages that were broadcasted while you were offline.
+
+And again, if you have extra nodes, setting up repeaters in high places is a good idea to extend the mesh coverage, especially since MeshCore relies more on an existing repeaters network than Meshtastic does.
+Another idea is to setup a room server at home with your private community's channel to make sure you don't miss too many messages when you're offline.
+
+### Private channels and "hashtag" channels
 
 
-### Observations
+
+### Off-grid (client repeat) mode
 
 
 
-### Configuration suggestions
+### Reliability
 
 
 
@@ -163,13 +228,4 @@ Especially considering its different approach to routing that relies more on rep
 ### Meshtastic use cases
 
 
-
-### Meshtastic configuration suggestions
-
-
-
 ### MeshCore use cases
-
-
-
-### MeshCore configuration suggestions
