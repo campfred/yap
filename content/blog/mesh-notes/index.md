@@ -38,13 +38,107 @@ Therefore, all of my starting points for my settings and tests are based on the 
 > [!info] Firmware version used at the time of testing
 > Version 2.7.15.567b8ea (Stable / Beta) was installed from the [official web flasher](https://flasher.meshtastic.org).
 
+So, first, I began with <abbr title="Meshtastic">MT</abbr> since, at the time, it was the system we would see everywhere when looking for that tech.
 
+### Getting started
+
+Getting it installed was really simple.
+
+1. Press and hold down the BOOT / RESET button
+2. Connect radio to a computer
+3. Once connected, wait 1-2 seconds then release the BOOT / RESET button
+
+> [!tip]- DFU mode with a battery attached
+> If the radio has a battery attached to it, I found that holding both the USER and the BOOT / RESET button while plugged in to a computer allowed me to bring it into DFU mode without having to open the case and pull the battery out.
+ 
+4. Visit the [official web flasher](https://flasher.meshtastic.org) on a Chromium-based browser ([Helium](https://helium.computer) in my case)
+5. Select the Heltec V4 radio as the <mark>Target device</mark>
+6. Select the latest Stable / Beta firmware for install if it’s not already selected
+7. Check on the <mark>Erase device</mark> option
+
+> [!tip] Erasing is only needed for new installs!
+> If you are already running Meshtastic on your device, keep the <mark>Erase device</mark> setting OFF to preserve your settings.
+ 
+8. Click <mark>Flash</mark> to start the process
+9. Select the <mark>USB JAG/serial debug unit</mark> device that shows in the browser’s serial device selection pop up
+10. Wait for the process to complete
+11. Open the web client (or the mobile app) and connect to the radio
+12. Set the appropriate region of use (US in my case)
+13. Explore and have fun! 🎉
+
+From there, it’s pretty easy and mostly a matter of setting up the node’s name (short and long) and maybe a few other settings depending on the use case.
+
+Luckily, my local Meshtastic community is running off the default LORA radio settings (Long Fast), so I was already part of the mesh as soon as I applied the US preset. ✨
+
+And now began my observations on the system. 👀
+
+### Observations
+
+#### Node roles
+
+I’ve been pleasantly surprised to see that everything is included in the same single firmware. Meaning I can flash the same firmware binaries for a client and for a repeater and only the configuration will determine their role and behaviour.
+As someone who is used to cases like RAID cards needing a different firmware to run in an alternative mode, that was really refreshing for me.
+
+From there, I found there’s a lot of different roles that can be used for different use cases. However, I’ll note the most useful ones to me.
+
+- <mark>📱 Client</mark><br>
+  This is the most common role for a node on the Meshtastic network and the default one to use when in doubt.<br>
+  It allows receiving, sending and forwarding messages on the network and can connect to the mobile and desktop apps.
+- <mark>🔇 Client Mute</mark><br>
+  This role is like the <mark>📱 Client</mark> role, except it doesn’t forward the messages broadcasted on the mesh (useful for keeping the noise down on the network).
+- <mark>🏠 Client Base</mark><br>
+  This one is like a client, except it will also always rebroadcast packets from its favourites nodes (usually your own client nodes).<br>
+  If you have an extra stationary node at home, this is a good role for it.
+- <mark>🛜 Repeater</mark><br>
+  Repeaters are pretty self-explanatory.<br>
+  They "repeat" (rebroadcast) messages but don’t count in the retransmission hops count of a message and they don’t appear in the discovered nodes list.<br>
+  They are very useful for extending the mesh’s network coverage.
+- <mark>🛜 Router (Late)</mark>
+  Similar to repeaters except they do count in the message hops count and also they do show on the nodes list.<br>
+  However, the <mark>🛜 Router Late</mark> variant will only rebroadcast after all other modes have done so.
+
+> [!Info] A complete list of roles is available on the official documentation!
+> Meshtastic has a [great list](https://meshtastic.org/docs/configuration/radio/device/#roles) with all of the other modes described in it.
+> Don’t hesitate to read through it!
+> They even have a [thorough guide on how to choose the node role](https://meshtastic.org/blog/choosing-the-right-device-role/)
+
+#### Configuration quirks
+
+Now, here’s some quirks I found with the node configuration when I was using it that made it a bit weird to use.
+
+First, I noticed that if the default channel isn’t the public one, the automatic frequency slot selection will switch you out from the default one set for your region. Therefore, kicking you out of your local mesh even if you still have the public channel set as a secondary channel. In order to stay connected with my local community, I needed to use [Meshtastic’s Frequency Slot Calculator](https://meshtastic.org/docs/overview/radio-settings/#frequency-slot-calculator to obtain the slot number associated with the default frequency with the US preset and join back my local mesh community.
 
 ## MeshCore
 
 > [!info] Firmware version used at the time of testing
 > Version v1.14.1 (Companion – Bluetooth) was installed from the [official web flasher](https://flasher.meshcore.co.uk).
 
+### Getting started
+
+
+
+### Observations
+
+
+
+### Configuration suggestions
+
 
 
 ## How would I approach this now
+
+### Meshtastic use cases
+
+
+
+### Meshtastic configuration suggestions
+
+
+
+### MeshCore use cases
+
+
+
+### MeshCore configuration suggestions
+
+
