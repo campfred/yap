@@ -14,10 +14,11 @@ params:
   author:
     links:
       - castopod: https://music.jackle.ca/@listen/links
-      - furtrack: https://furtrack.com/user/campfred/uploads
       - codeberg: https://codeberg.org/campfred
       - github: https://github.com/campfred
+      - tangled: https://tangled.org/camp.jackle.ca
       - bluesky: https://bsky.app/profile/camp.jackle.ca
+      - furtrack: https://furtrack.com/user/campfred/uploads
       - furaffinity: https://furaffinity.net/user/campfred
       - lastfm: https://last.fm/user/campfred
 params.author:
