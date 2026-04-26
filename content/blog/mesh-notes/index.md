@@ -2,8 +2,8 @@
 title: LORA Mesh notes
 description: Some notes of mine about my experience with some LORA Mesh networks (Meshtastic and MeshCore)
 summary: Some personal notes about my experience with some LORA Mesh networks like Meshtastic and MeshCore. 📝🛜
-date: 2026-04-25
-lastmod: 2026-04-25
+date: 2026-04-26
+lastmod: 2026-04-26
 draft: true
 categories:
   - blog
@@ -29,7 +29,7 @@ This post will be split into two main sections: Meshtastic, since I started on i
 
 ## Oh so important context
 
-All of my experience comes from using a Heltec V4 radio with the basic small and curly antenna in the Greater Montréal Area in Québec, Canada.
+All of my experience comes from using a Heltec V4 radio with the basic small and curly antenna in the Greater Montréal Area in Québec, Canada, during the month of February 2026.
 Therefore, all of my starting points for my settings and tests are based on the local community’s setup at that time and, of course, the limitations of my hardware and the software used at that ime.
 
 ## Meshtastic
@@ -113,7 +113,8 @@ From there, I found there’s a lot of different roles that can be used for diff
 > Don’t hesitate to read through it!
 > They even have a [thorough guide on how to choose the node role](https://meshtastic.org/blog/choosing-the-right-device-role/)
 
-If you're unsure or just starting, I'd suggest sticking with the default <mark>📱 Client</mark> role for your own node. It'll work well and have all the interesting features.
+If you're unsure or just starting, I'd suggest sticking with the default <mark>📱 Client</mark> role for your own node.
+It'll work well and have all the interesting features to get you going. 👀
 
 Later, if you have some extra nodes, mainly one that stays at home, you could set the stationary one to <mark>🏠 Client Base</mark> and the mobile one to <mark>📱 Client Mute</mark>.
 
@@ -131,7 +132,23 @@ Then, the public channel can be set as a secondary channel with the default key 
 However, after doing that, I noticed that the automatic frequency slot selection will switch the radio out from the default one set for the region.
 Therefore, kicking me out of the local mesh even while still having the public channel set as a secondary channel.
 
-In order to stay connected with my local community, I needed to use [Meshtastic’s Frequency Slot Calculator](https://meshtastic.org/docs/overview/radio-settings/#frequency-slot-calculator) to obtain the slot number associated with the default frequency with the US preset and join back my local mesh community.
+In order to stay connected with my local community, I needed to use [Meshtastic’s Frequency Slot Calculator](https://meshtastic.org/docs/overview/radio-settings/#frequency-slot-calculator) to obtain the slot number associated with the default frequency with the US preset and join back my local mesh community. ✨
+
+If you're familiar with [`meshtastic-cli`](https://meshtastic.org/docs/software/python/cli/) and happen to be in the same situation, here's a configuration code snippet you can re-use to configure your node with the right frequency slot for the US preset while also having a private channel set up.
+
+```yaml
+config:
+  lora:
+    bandwidth: 250
+    channelNum: 20
+    codingRate: 5
+    region: US
+    spreadFactor: 11
+    sx126xRxBoostedGain: true
+    txEnabled: true
+    txPower: 30
+    usePreset: true
+```
 
 ### Reliability
 
@@ -155,7 +172,7 @@ Especially considering its different approach to routing that relies more on rep
 Now came the time to start using <abbr title="MeshCore">MC</abbr> and see how it performs compared to <abbr title="Meshtastic">MT</abbr>.
 Not gonna lie, reading the summaries of differences between these two solutions made me pretty excited to try it out and see how it performs in real life.
 It has a lot of potential for addressing the issues I was having with <abbr title="Meshtastic">MT</abbr>.
-And so, I took a backup of my Meshtastic settings and private key and flashed the MeshCore firmware on my radio.
+And so, I took a backup of my Meshtastic settings and private key and flashed the MeshCore firmware on my radio. ⚡
 
 ### Getting started
 
@@ -209,23 +226,122 @@ MeshCore is pretty simple in comparison when it comes to node roles as there are
   Useful if you intend to have a channel with a community and do not want to miss the messages that were broadcasted while you were offline.
 
 And again, if you have extra nodes, setting up repeaters in high places is a good idea to extend the mesh coverage, especially since MeshCore relies more on an existing repeaters network than Meshtastic does.
-Another idea is to setup a room server at home with your private community's channel to make sure you don't miss too many messages when you're offline.
+Another idea is to setup a room server at home with your private community's channel to make sure you don't miss too many messages when you're offline. 🏡
 
 ### Private channels and "hashtag" channels
 
+Private channels also exist on <abbr title="MeshCore">MC</abbr> and work pretty much the same way as on <abbr title="Meshtastic">MT</abbr>, except for one thing.
+There are also "hashtag" channels which are public channels that anyone can join without needing to know the pre-shared key, but they need to be manually added to be able to see and message on them.
 
+Honestly, I find it pretty neat because it still allowed me to have a private channel for my friends while also have a "hashtag" channel specifically for events (concerts, festivals, etc.) that anyone can join to chat and have fun.
+
+Therefore, the way I configured it is that, outside of the default public channel, I have a private channel with a pre-shared key that I share with my friends, a `#fluffcore` channel for fun of receiving other fluffs on the mesh and finally, when I go to an event, I also add the event's hashtag channel to my node to be able to chat with other attendees. For example, Furnal Equinox's social media hashtag this year was #FE2026, so I added that channel to my node when I went to the event! If I go to Île Soniq this year with a mesh node, I'll add the #ÎLESONIQ2026 channel up for example. 🐺
 
 ### Off-grid (client repeat) mode
 
+This feature is very recent and was released in the v1.14 stable firmware version and outside of some tests at home, I didn't have the occasion to use it yet.
+However, this solves a pain point I had before with MeshCore's approach.
 
+Basically, it allows a companion node to bet switched into a Meshtastic-like operation mode where it will not only receive and transmit messages, but it will also forward incoming messages not meant for it.
+Therefore, breaking the isolation that happens when no repeaters are around.
+
+When that feature got introduced, it allowed MeshCore to cover pretty much the entirity of my own use cases on the mesh.
+I'm even considering just leaving that software on my companion permanently from now on. 👀
 
 ### Reliability
 
+Reliability was greatly improved for me even though my local mesh community didn't have many repeaters up yet.
+In fact, I was bringing my companion node up and back to work for war-walking and discovering repeaters on my way and while I did find one, it was situated far from the office I was working at.
+However, while being at the office, I was able to exchange messages with other people on the network via a repeater even though both [MeshMapper](https://meshmapper.net) and [mapme.sh](https://mapme.sh) weren't able to get a successful test out of it.
 
+I think that, aside when I was away from a repeater obviously, I have yet to have a failed message attempt on MeshCore.
+Which is pretty refreshing considering I was pretty bummed out with Meshtastic and was considering repurposing the radio for other LORA use cases. ❤️‍🩹
 
-## How would I approach this now
+## How I am approaching this now
+
+Now that I'm better informed about that technology and that the novelty wore off a bit, I have a few thoughts on when and where each would be useful that I think would be interesting to know about.
 
 ### Meshtastic use cases
 
+Meshtastic still stays relevant for me despite the issues I had of course, but its use case is not a bit strict.
+
+If you want a way to exchange messages at crowded events and your experience has been reliable for direct messaging, I believe this remains a good use case for it.
+It's especially useful at places where having a bunch of cellphones tightly packed together will bring down the mobile phone networks to their knees.
+Oh! And if you got nodes with GPS installed, this can also allow to share precise location (automatically or manually) with friends to regroup more easily.
+
+Speaking of GPS and telemetry, that's pretty much its strenght for me.
+It unlocks a few more use cases for me that MeshCore, right now, don't seem to cover.
+
+One example I've been told about by another user is being able to leave trackers behind alike "breadcrumbs" while hiking.
+They'd use them later as checkpoints when backtracking their trip.
+
+It's been also interesting to observe a node in my area that had a few sensors installed and broadcasted onto the mesh.
+Essentially acting as a off-grid weather station for the area. 👀
+
+But anything that requires communication over extended distances is probably out of question for me with Meshtastic.
+I will miss the reply references, message reactions and priority alerts features that it offers.
 
 ### MeshCore use cases
+
+MeshCore doesn't have the same set of features, especially when it comes to telemetry broadcast for example.
+
+However, its focus on messaging makes it really compelling for anything messaging releated.
+It's reliable and allows packets to travel far on a network with repeaters present.
+
+Add to that the new client repeat mode and also the "hashtag" channels and it's a really compelling solution for crowded events.
+
+I still wish there was the same kind of telemetry broadcast feature that <abbr title="Meshtastic">MT</abbr> has however.
+Like if I am part of a private channel with friends, I'd like us to be able to share our position, battery level and mobile connection status (in case one's phone drop out of their companion) so that we can find eachother at festivals.
+The companion connection status would especially be useful to guess what's going on with them no responding after a while. 😌
+
+## My recommendation
+
+Now, with all of that, would I still recommend people to get nodes and try Meshtastic and / or MeshCore?
+
+Yes! Of course!
+If you're already interested in this and _especially_ if you're a bit of a tinkerer anyway, you'll likely find something interesting to try out in both solutions.
+The radios are cheap and don't need to be fancy with big antennas.
+Just get a Heltec V3 or V4 with a battery and a GPS module and "plop" that with its default coily antenna in the plastic box that it came with and you're already set for getting started.
+
+It's just so accessible that even a kid can study it.
+They can use it learn and present at school about using LORA on a farm.
+Like, explaining how this is used to wirelessly transmit information about the fields' moisture levels and other details back to home base.
+And that is useful data to make decisions on harvesting times!
+
+Anyway, I hope these notes have been interesting and maybe even useful for you as much as they've been fun to explore and write.
+Even if the novelty of the tech wore off for me, I'm still always excited to bring one and show and try it out with people, especially furries.
+We're a big bunch of nerds and the likelyhood of finding someone with the same interest is very high.
+So, there's always opportunity to mess around and learn with it. ✨
+
+> [!info]- Useful resources on the matter
+> Here's a handful of sites that I found were helpful on the subject to understand and test things out.
+>
+> **Meshtastic-related**
+>
+> - [Official website](https://meshtastic.org)
+> - [Official documentation](https://meshtastic.org/docs/)
+>   - [Frequency slot calculator](https://meshtastic.org/docs/overview/radio-settings/#frequency-slot-calculator)
+>   - [Backing up and restoring security keys with `meshtastic-cli`](https://meshtastic.org/docs/configuration/radio/security/#security-keys---backup-and-restore)
+> - [Official Meshtastic flasher](https://flasher.meshtastic.org)
+> - [Official Meshtastic apps](https://meshtastic.org/docs/software/)
+> - [Socialmesh third party app](https://socialmesh.app)
+> - [MeshMap's public map](https://meshmap.net)
+>
+> **MeshCore-related**
+>
+> - [Official website](https://meshcore.io)
+> - [Official documentation](https://docs.meshcore.io)
+> - [Official MeshCore flasher](https://flasher.meshcore.io)
+> - [Official MeshCore apps](https://meshcore.io#download)
+> - [Official MeshCore map](https://map.meshcore.io)
+> - [MeshMapper](https://meshmapper.net)
+> - [mapme.sh](https://mapme.sh)
+> - [samuk's awesome-meshcore document fork](https://github.com/samuk/awesome-meshcore/blob/main/README.md)
+>
+> **Communities**
+>
+> - [Canadaverse Mesh](https://wiki.mt.gt)
+> - [NoDak (North Dakota) Mesh](https://nodakmesh.org/)<br/>
+>   _(awesome website with instructions and tools linked in it!)_
+> - [NHMesh](https://nhmesh.com)
+>   - [Channel setup guide](https://nhmesh.com/guides/channel-setup)
