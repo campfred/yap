@@ -2,15 +2,15 @@
 title: LORA Mesh notes
 description: Some notes of mine about my experience with some LORA Mesh networks (Meshtastic and MeshCore)
 summary: Some personal notes about my experience with some LORA Mesh networks like Meshtastic and MeshCore. 📝🛜
-date: 2026-04-26
-lastmod: 2026-04-26
-draft: true
+date: 2026-05-29
+lastmod: 2026-05-29
 categories:
   - blog
 tags:
   - tech
   - lora
   - mesh
+  - networking
   - meshtastic
   - meshcore
 showTableOfContents: true
