@@ -341,7 +341,15 @@ So, there's always opportunity to mess around and learn with it. ✨
 > **Communities**
 >
 > - [Canadaverse Mesh](https://wiki.mt.gt)
+> - [MIME (Montréal Island Mesh Enthusiasts)](https://www.montrealmesh.ca)
+> - [GOME (Greater Ottawa Mesh Enthusiasts)](https://ottawamesh.ca)
 > - [NoDak (North Dakota) Mesh](https://nodakmesh.org/)<br/>
 >   _(awesome website with instructions and tools linked in it!)_
 > - [NHMesh](https://nhmesh.com)
 >   - [Channel setup guide](https://nhmesh.com/guides/channel-setup)
+>
+> **Local, technical and governing resources**
+>
+> - [ISED (Innovation, Science and Economic Development Canada)](https://ised-isde.canada.ca)
+> - [LoRa Alliance](https://lora-alliance.org)
+> - [HeyWhat’sThat](https://www.heywhatsthat.com)
