@@ -1,15 +1,16 @@
 ---
-title: LORA Mesh notes
-description: Some notes of mine about my experience with some LORA Mesh networks (Meshtastic and MeshCore)
-summary: Some personal notes about my experience with some LORA Mesh networks like Meshtastic and MeshCore. 📝🛜
-date: 2026-05-29
-lastmod: 2026-05-29
+title: LoRa™ Mesh communication notes
+description: Some notes of mine about my experience using some LoRa™ Mesh networks (Meshtastic and MeshCore) for messaging communication purposes
+summary: Some personal notes about my experience with messaging on some LoRa™ Mesh networks (Meshtastic and MeshCore). 📝🛜
+date: 2026-06-13
+lastmod: 2026-06-13
 categories:
   - blog
 tags:
   - tech
   - lora
   - mesh
+  - communication
   - networking
   - meshtastic
   - meshcore
@@ -18,7 +19,7 @@ showTableOfContents: true
 
 Hi there! 👋🏻
 
-Late last year, my lover bought a pair of Heltec V4 radios for experimenting with LORA Mesh protocols and networks.
+Late last year, my lover bought a pair of Heltec V4 radios for experimenting with messaging on LoRa™ Mesh networks.
 
 Since then, I’ve been a bit obsessed with the tool and have experimented a lot with it to learn about it.
 Since then, my view of that tool has shifted significantly but not necessarily for the worse. I’m just wiser and better informed about it.
@@ -39,7 +40,7 @@ Therefore, all of my starting points for my settings and tests are based on the 
 
 So, first, I began with <abbr title="Meshtastic">MT</abbr> since, at the time, it was the system we would see everywhere online when looking for that tech.
 It was also the system with the most publicly showing nodes and repeaters in the area when comparing with [<abbr title="Meshtastic">MT</abbr>'s map](https://meshmap.net) and [<abbr title="MeshCore">MC</abbr>'s map](https://map.meshcore.io).
-And so, Meshtastic was picked to begin the journey with LORA Mesh.
+And so, Meshtastic was picked to begin the journey with LoRa™ Mesh.
 
 ### Getting started
 
@@ -81,7 +82,7 @@ So, I flashed the latest official Stable / Beta firmware on it.
 
 From there, it’s pretty easy and mostly a matter of setting up the node’s name (short and long) and maybe a few other settings depending on the use case.
 
-Luckily, my local Meshtastic community is running off the default LORA radio settings (Long Fast), so I was already part of the mesh as soon as I applied the US preset. ✨
+Luckily, my local Meshtastic community is running off the default LoRa™ radio settings (Long Fast), so I was already part of the mesh as soon as I applied the US preset. ✨
 
 And now began my observations on the system. 👀
 
@@ -235,7 +236,22 @@ There are also "hashtag" channels which are public channels that anyone can join
 
 Honestly, I find it pretty neat because it still allowed me to have a private channel for my friends while also have a "hashtag" channel specifically for events (concerts, festivals, etc.) that anyone can join to chat and have fun.
 
-Therefore, the way I configured it is that, outside of the default public channel, I have a private channel with a pre-shared key that I share with my friends, a `#fluffcore` channel for fun of receiving other fluffs on the mesh and finally, when I go to an event, I also add the event's hashtag channel to my node to be able to chat with other attendees. For example, Furnal Equinox's social media hashtag this year was #FE2026, so I added that channel to my node when I went to the event! If I go to Île Soniq this year with a mesh node, I'll add the #ÎLESONIQ2026 channel up for example. 🐺
+Therefore, the way I configured it is that, outside of the default public channel, I have a private channel with a pre-shared key that I share with my friends, a few "hashtag" channels channel for fun of receiving other fluffs on the mesh and finally, when I go to an event, I also add the event's hashtag channel to my node to be able to chat with other attendees.
+
+For example, Furnal Equinox's social media hashtag this year was #FE2026, so I added that channel to my node when I went to the event! If I go to Île Soniq this year with a mesh node, I'll add the #ÎLESONIQ2026 channel up for example. 🐺
+
+Here's a list of the channels I have on my node right now:
+- `#public` (default public channel)
+- `#wardriving` (public channel used by some mesh mapping utilities)
+- `#furry`
+- `#yul`
+- `#yul-general`
+- `#yul-urgence`
+- `#yul-furry`
+- `#piknic` (event channel for the [Piknic Électronik festival](https://piknicelectronik.com))
+- `#offpiknic` (event channel for the [OfF Piknic festival](https://piknicelectronik.com))
+
+Channels are cheap on MeshCore! You can have up to 40 of them on your companion node! So, don't hesitate to add some that may be useful when going out.
 
 ### Off-grid (client repeat) mode
 
@@ -255,7 +271,7 @@ In fact, I was bringing my companion node up and back to work for war-walking an
 However, while being at the office, I was able to exchange messages with other people on the network via a repeater even though both [MeshMapper](https://meshmapper.net) and [mapme.sh](https://mapme.sh) weren't able to get a successful test out of it.
 
 I think that, aside when I was away from a repeater obviously, I have yet to have a failed message attempt on MeshCore.
-Which is pretty refreshing considering I was pretty bummed out with Meshtastic and was considering repurposing the radio for other LORA use cases. ❤️‍🩹
+Which is pretty refreshing considering I was pretty bummed out with Meshtastic and was considering repurposing the radio for other LoRa™ use cases. ❤️‍🩹
 
 ## How I am approaching this now
 
@@ -294,6 +310,10 @@ I still wish there was the same kind of telemetry broadcast feature that <abbr t
 Like if I am part of a private channel with friends, I'd like us to be able to share our position, battery level and mobile connection status (in case one's phone drop out of their companion) so that we can find eachother at festivals.
 The companion connection status would especially be useful to guess what's going on with them no responding after a while. 😌
 
+### Radio hardware selection
+
+While the Heltec V4 radio is pretty good, I since learned that there were some issues with its design which have [apparently been revized in the V4.3.1](https://github.com/meshtastic/firmware/pull/9571#issuecomment-3958036679) and that there are also nRF-based radios with similar performance but better power efficiency. If I were to get new radios, I would likely try out the nRF-based ones especially for unattended solar repeaters.
+
 ## My recommendation
 
 Now, with all of that, would I still recommend people to get nodes and try Meshtastic and / or MeshCore? Yes! Of course!
@@ -303,10 +323,10 @@ The radios are cheap and don't need to be fancy with big antennas.
 Just get a Heltec V3 or V4 with a battery (and maybe a GPS module if you wanna experiment with that) and "plop" that with its default coily antenna in the plastic box that it came with and you're already set for getting started.
 
 It's just so accessible that even a kid can study it.
-They can use it learn and present at school about using LORA on a farm.
+They can use it learn and present at school about using LoRa™ on a farm.
 Like, explaining how this is used to wirelessly transmit information about the fields' moisture levels and other details back to home base.
 And that is useful data to make decisions on harvesting times!
-Of course, there are other known use cases for LORA in parks, scientific bases and even some cities used that to gather some data about its infrastructure.
+Of course, there are other known use cases for LoRa™ in parks, scientific bases and even some cities used that to gather some data about its infrastructure.
 
 Anyway, I hope these notes have been interesting and maybe even useful for you as much as they've been fun to explore and write.
 Even if the novelty of the tech wore off for me, I'm still always excited to bring one and show and try it out with people, especially furries.
