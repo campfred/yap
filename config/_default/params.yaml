@@ -19,7 +19,7 @@ replyByEmail: false
 
 mainSections:
   - blog
-  # - guides
+  - guides
 # robots:
 
 disableImageOptimization: false
@@ -57,8 +57,8 @@ homepage:
   homepageImage: Background.webp
   showRecent: true
   showRecentItems: 3
-  showMoreLink: true
-  showMoreLinkDest: /blog/
+  # showMoreLink: true
+  # showMoreLinkDest: /blog/ # TODO Find a way to show all blog and guides together
   cardView: true
   cardViewScreenWidth: false
   layoutBackgroundBlur: false # only used when layout = background

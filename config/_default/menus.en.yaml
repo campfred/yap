@@ -6,16 +6,16 @@ main:
     weight: 1
   - pre: graduation-cap
     name: Guides
-    pageRef: categories/guides
+    pageRef: guides
     identifier: zDj8TJLRqG
     weight: 2
   - pre: castopod
     name: Mixtapes
-    url: 'https://music.jackle.ca/@listen/links'
+    url: "https://music.jackle.ca/@listen/links"
     identifier: YEdyTsJ0Vl
     weight: 4
   - pre: github
-    url: 'https://github.com/campfred/yap'
+    url: "https://github.com/campfred/yap"
     identifier: D6W3MEzy8Z
     weight: 9999
 footer:

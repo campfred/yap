@@ -10,21 +10,19 @@ params:
   dateFormat: Jan. 2 2006
   logo: Discord anim.gif
   secondaryLogo: frame_00_delay-0.03s.gif
-  description: Camp's blog for hosting and sharing various notes and thoughts
-    about various stuff. It may serve as a document repository for public
-    interest stuff too sometimes. I dunno.
+  description: Camp's blog for hosting and sharing various notes and thoughts about various stuff. It may serve as a document repository for public interest stuff too sometimes. I dunno.
   author:
     links:
       - castopod: https://music.jackle.ca/@listen/links
-      - furtrack: https://furtrack.com/user/campfred/uploads
       - codeberg: https://codeberg.org/campfred
       - github: https://github.com/campfred
+      - tangled: https://tangled.org/camp.jackle.ca
       - bluesky: https://bsky.app/profile/camp.jackle.ca
+      - furtrack: https://furtrack.com/user/campfred/uploads
       - furaffinity: https://furaffinity.net/user/campfred
       - lastfm: https://last.fm/user/campfred
 params.author:
   name: Camp
   image: xmaseve event page 12.profile.png
   headline: I'm not a miracle worker... Well, not always. ✨
-  bio: Big nerd jackal from Canada 🇨🇦 who tames 🖥️s and digital ☁️s by day and
-    (sometimes) 🔊s, 💡s or 💿s by night.
+  bio: Big nerd jackal from Canada 🇨🇦 who tames 🖥️s and digital ☁️s by day and (sometimes) 🔊s, 💡s or 💿s by night.
