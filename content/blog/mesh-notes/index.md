@@ -296,24 +296,24 @@ The companion connection status would especially be useful to guess what's going
 
 ## My recommendation
 
-Now, with all of that, would I still recommend people to get nodes and try Meshtastic and / or MeshCore?
+Now, with all of that, would I still recommend people to get nodes and try Meshtastic and / or MeshCore? Yes! Of course!
 
-Yes! Of course!
 If you're already interested in this and _especially_ if you're a bit of a tinkerer anyway, you'll likely find something interesting to try out in both solutions.
 The radios are cheap and don't need to be fancy with big antennas.
-Just get a Heltec V3 or V4 with a battery and a GPS module and "plop" that with its default coily antenna in the plastic box that it came with and you're already set for getting started.
+Just get a Heltec V3 or V4 with a battery (and maybe a GPS module if you wanna experiment with that) and "plop" that with its default coily antenna in the plastic box that it came with and you're already set for getting started.
 
 It's just so accessible that even a kid can study it.
 They can use it learn and present at school about using LORA on a farm.
 Like, explaining how this is used to wirelessly transmit information about the fields' moisture levels and other details back to home base.
 And that is useful data to make decisions on harvesting times!
+Of course, there are other known use cases for LORA in parks, scientific bases and even some cities used that to gather some data about its infrastructure.
 
 Anyway, I hope these notes have been interesting and maybe even useful for you as much as they've been fun to explore and write.
 Even if the novelty of the tech wore off for me, I'm still always excited to bring one and show and try it out with people, especially furries.
 We're a big bunch of nerds and the likelyhood of finding someone with the same interest is very high.
 So, there's always opportunity to mess around and learn with it. ✨
 
-> [!info]- Useful resources on the matter
+> [!tip]- Useful resources on the matter
 > Here's a handful of sites that I found were helpful on the subject to understand and test things out.
 >
 > **Meshtastic-related**
@@ -343,8 +343,7 @@ So, there's always opportunity to mess around and learn with it. ✨
 > - [Canadaverse Mesh](https://wiki.mt.gt)
 > - [MIME (Montréal Island Mesh Enthusiasts)](https://www.montrealmesh.ca)
 > - [GOME (Greater Ottawa Mesh Enthusiasts)](https://ottawamesh.ca)
-> - [NoDak (North Dakota) Mesh](https://nodakmesh.org/)<br/>
->   _(awesome website with instructions and tools linked in it!)_
+> - [NoDak (North Dakota) Mesh](https://nodakmesh.org/)
 > - [NHMesh](https://nhmesh.com)
 >   - [Channel setup guide](https://nhmesh.com/guides/channel-setup)
 >
