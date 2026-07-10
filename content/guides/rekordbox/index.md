@@ -69,15 +69,18 @@ It's actually pretty easy as it turns out!
 Here's the few specs to keep in check that will take care of the issues.
 
 - <mark>✏️ 4K random write speeds</mark> _(most important)_<br>
-  This has an impact on exporting a library from Rekordbox on desktop to the USB drive and even recording a set to some extent.
+  This has an impact on exporting a library from Rekordbox on desktop to the USB drive and even recording a set to some extent.<br>
+  A good minimum is ≥10 MB/s to save up some frustrations and panic.
 - <mark>🔍 4K random read speeds</mark><br>
-  This helps when searching and browsing for tracks on players as it's a lot of random small data reads in device libraries databases.
+  This helps when searching and browsing for tracks on players as it's a lot of random small data reads in device libraries databases.<br>
+  It's normally faster than the equivalent write speeds but having also ≥10 MB/s ensures a smooth experience.
 - <mark>🎞️ Sequential read speeds</mark><br>
-  While this one is usually fine, it does improve the tracks' loading speeds as seen by the waveforms gradually appearing on screen _in sequence_.
+  While this one is usually fine, it does improve the tracks' loading speeds as seen by the waveforms gradually appearing on screen _in sequence_.<br>
+  For the record, ≥300 MB/s will be enough to ensure basically fully utilizing a CDJ's USB port's bandwidth.
 - <mark>🏬 Local shops</mark><br>
   It doesn't affect performance, but the ability to get a new drive from a local shop in emergency hours before playing is heavily underestimated. It also helps against counterfeits sold online.
 
-{{<lead>}}Basically, just get a USB flash drive that is tested for ≥100 MB/s of random 4K read and write speeds.{{</lead>}}
+{{<lead>}}Basically, just get a USB flash drive that is tested for ≥10 MB/s of random 4K read and write speeds.{{</lead>}}
 
 > [!caution] Portable SSDs are discouraged!
 > Players and mixers are likely not providing enough power for running external / portable SSDs with them.[^2]
@@ -87,7 +90,7 @@ Here's the few specs to keep in check that will take care of the issues.
 >
 > To date, I'm using a [Kingston's DataTraveler Max][kingston-datatravelermax] and it is my recommendation at time of writing this.
 >
-> It has good specs for relieving my own and my friends' anxiety during Rekordbox exports with [its ~200 MB/s random 4K speeds][techpowerup-kingston-datatravelermax].
+> It has good specs for relieving my own and my friends' anxiety during Rekordbox exports with [its ~20 MB/s random 4K speeds][techpowerup-kingston-datatravelermax].
 > It's also available at the most present computer stores in my area ([Canada Computers][kingston-datatravelermax-canadacomputers], [Best Buy][kingston-datatravelermax-bestbuy] and [Addision Électronique][kingston-datatravelermax-addison]), which has been handy a few times already. ❤️‍🩹
 
 ### Partitioning schemes
