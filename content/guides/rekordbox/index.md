@@ -87,7 +87,7 @@ Here's the few specs to keep in check that will take care of the issues.
 >
 > To date, I'm using a [Kingston's DataTraveler Max][kingston-datatravelermax] and it is my recommendation at time of writing this.
 >
-> It has good specs for relieving my own and my friends' anxiety during Rekordbox exports with [its ~200 MB/s random 4K speeds][techpowerup-kingston-datatravelermax].
+> It has good specs for relieving my own and my friends' anxiety during Rekordbox exports with [its ~20 MB/s random 4K speeds][techpowerup-kingston-datatravelermax].
 > It's also available at the most present computer stores in my area ([Canada Computers][kingston-datatravelermax-canadacomputers], [Best Buy][kingston-datatravelermax-bestbuy] and [Addision Électronique][kingston-datatravelermax-addison]), which has been handy a few times already. ❤️‍🩹
 
 ### Partitioning schemes

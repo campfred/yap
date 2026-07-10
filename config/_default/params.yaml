@@ -144,11 +144,12 @@ term:
   groupByYear: false
   cardView: false
   cardViewScreenWidth: false
-  firebase: {}
-  fathomAnalytics: {}
-  umamiAnalytics: {}
-  selineAnalytics: {}
-  buymeacoffee: {}
-  verification: {} # TODO Do fediverse verification once account is done
-  rssnext: {}
-  advertisement: {}
+
+firebase: {}
+fathomAnalytics: {}
+umamiAnalytics: {}
+selineAnalytics: {}
+buymeacoffee: {}
+verification: {} # TODO Do fediverse verification once account is done
+rssnext: {}
+advertisement: {}
